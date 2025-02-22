@@ -3,14 +3,14 @@
   weights:
     OreIron: 1.0
     OreQuartz: 1.0
-    OreCoal: 0.33
-    OreSalt: 0.25
-    OreGold: 0.25
-    OreSilver: 0.25
-    OrePlasma: 0.20
-    OreUranium: 0.20
-    OreArtifactFragment: 0.10
-    OreBananium: 0.10
+    OreCoal: 0.83
+    OreSalt: 0.01
+    OreGold: 0.85
+    OreSilver: 0.85
+    OrePlasma: 0.85
+    OreUranium: 0.85
+    OreArtifactFragment: 0.75
+    OreBananium: 0.75
 
 - type: oreDunGen
   id: OreIron
@@ -18,8 +18,8 @@
   - AsteroidRock
   entity: AsteroidRockTin
   count: 5
-  minGroupSize: 5
-  maxGroupSize: 7
+  minGroupSize: 6
+  maxGroupSize: 18
 
 - type: oreDunGen
   id: OreQuartz
@@ -27,8 +27,8 @@
   - AsteroidRock
   entity: AsteroidRockQuartz
   count: 5
-  minGroupSize: 5
-  maxGroupSize: 7
+  minGroupSize: 6
+  maxGroupSize: 18
 
 - type: oreDunGen
   id: OreCoal
@@ -37,7 +37,7 @@
   entity: AsteroidRockCoal
   count: 3
   minGroupSize: 5
-  maxGroupSize: 7
+  maxGroupSize: 17
 
 - type: oreDunGen
   id: OreSalt
@@ -45,8 +45,8 @@
   - AsteroidRock
   entity: AsteroidRockSalt
   count: 3
-  minGroupSize: 5
-  maxGroupSize: 7
+  minGroupSize: 1
+  maxGroupSize: 1
 
 - type: oreDunGen
   id: OreGold
@@ -55,7 +55,7 @@
   entity: AsteroidRockGold
   count: 4
   minGroupSize: 5
-  maxGroupSize: 7
+  maxGroupSize: 17
 
 - type: oreDunGen
   id: OreSilver
@@ -64,7 +64,7 @@
   entity: AsteroidRockSilver
   count: 4
   minGroupSize: 5
-  maxGroupSize: 7
+  maxGroupSize: 17
 
 - type: oreDunGen
   id: OrePlasma
@@ -73,7 +73,7 @@
   entity: AsteroidRockPlasma
   count: 4
   minGroupSize: 5
-  maxGroupSize: 7
+  maxGroupSize: 17
 
 - type: oreDunGen
   id: OreUranium
@@ -82,7 +82,7 @@
   entity: AsteroidRockUranium
   count: 4
   minGroupSize: 5
-  maxGroupSize: 7
+  maxGroupSize: 17
 
 - type: oreDunGen
   id: OreBananium
@@ -91,7 +91,7 @@
   entity: AsteroidRockBananium
   count: 6
   minGroupSize: 3
-  maxGroupSize: 6
+  maxGroupSize: 16
 
 - type: oreDunGen
   id: OreArtifactFragment
@@ -100,6 +100,6 @@
   entity: AsteroidRockArtifactFragment
   count: 5
   minGroupSize: 1
-  maxGroupSize: 2
+  maxGroupSize: 12
 
 
