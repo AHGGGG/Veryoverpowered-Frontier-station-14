@@ -13,7 +13,7 @@
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: spacequartz }
   color: "#a8ccd7"
-  price: 1.575
+  price: 1.675
 
 - type: material
   id: RawGold
