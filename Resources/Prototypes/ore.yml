@@ -5,33 +5,33 @@
 - type: ore
   id: OreSteel
   oreEntity: SteelOre1
-  minOreYield: 1
-  maxOreYield: 5
+  minOreYield: 10
+  maxOreYield: 50
 
 - type: ore
   id: OreSpaceQuartz
   oreEntity: SpaceQuartz1
-  minOreYield: 1
-  maxOreYield: 5
+  minOreYield: 10
+  maxOreYield: 50
 
 - type: ore
   id: OreCoal
   oreEntity: Coal1
-  minOreYield: 1
-  maxOreYield: 5
+  minOreYield: 10
+  maxOreYield: 50
 
 # Medium yields
 - type: ore
   id: OreGold
   oreEntity: GoldOre1
-  minOreYield: 1
-  maxOreYield: 3
+  minOreYield: 10
+  maxOreYield: 30
 
 - type: ore
   id: OreSilver
   oreEntity: SilverOre1
-  minOreYield: 1
-  maxOreYield: 3
+  minOreYield: 10
+  maxOreYield: 30
 
 - type: ore
   id: OreSalt
@@ -43,14 +43,14 @@
 - type: ore
   id: OrePlasma
   oreEntity: PlasmaOre1
-  minOreYield: 1
-  maxOreYield: 2
+  minOreYield: 10
+  maxOreYield: 20
 
 - type: ore
   id: OreUranium
   oreEntity: UraniumOre1
-  minOreYield: 1
-  maxOreYield: 2
+  minOreYield: 10
+  maxOreYield: 20
 
 - type: ore
   id: OreBananium
@@ -61,8 +61,8 @@
 - type: ore
   id: OreDiamond
   oreEntity: DiamondOre1
-  minOreYield: 1
-  maxOreYield: 2
+  minOreYield: 10
+  maxOreYield: 20
 
 - type: ore
   id: OreQuartzCrab
@@ -91,13 +91,13 @@
   weights:
     OreSteel: 10
     OreCoal: 10
-    OreSpaceQuartz: 8
-    OreGold: 2
-    OrePlasma: 4
-    OreSilver: 1
-    OreUranium: 1
-    OreBananium: 0.5
-    OreArtifactFragment: 0.5
+    OreSpaceQuartz: 10
+    OreGold: 10
+    OrePlasma: 10
+    OreSilver: 10
+    OreUranium: 10
+    OreBananium: 10
+    OreArtifactFragment: 10
 
 - type: weightedRandomOre
   id: OreCrab
