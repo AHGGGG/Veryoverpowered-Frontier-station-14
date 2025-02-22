@@ -54,23 +54,24 @@
   result: Brutepack1
   completetime: 1
   materials:
-    Steel: 25
-    Plastic: 25
+    Steel: 15
+    Plastic: 15
+    Cloth: 15
 
 - type: latheRecipe
   id: Ointment
   result: Ointment1
   completetime: 1
   materials:
-    Glass: 25
-    Plastic: 25
+    Glass: 15
+    Plastic: 15
 
 - type: latheRecipe
   id: Gauze
   result: Gauze1
   completetime: 1
   materials:
-    Cloth: 100 # lathe more efficient than handcrafting
+    Cloth: 50 # lathe more efficient than handcrafting
 
 - type: latheRecipe
   id: HandheldHealthAnalyzer
@@ -94,7 +95,7 @@
   completetime: 2
   materials:
     Plastic: 100
-    Durathread: 200
+    Durathread: 100
 
 - type: latheRecipe
   id: ClothingMaskSterile
@@ -124,7 +125,8 @@
   result: DefibrillatorEmpty
   completetime: 2
   materials:
-    Steel: 300
+    Steel: 100
+    Plastic: 50
 
 - type: latheRecipe
   id: Medkit
@@ -132,7 +134,7 @@
   name: lathe-recipe-Medkit-name
   completetime: 2
   materials:
-    Plastic: 300
+    Plastic: 200
 
 - type: latheRecipe
   parent: Medkit
@@ -195,16 +197,16 @@
   result: VehicleWheelchairFolded
   completetime: 1
   materials:
-    Steel: 500
-    Plastic: 300
+    Steel: 300
+    Plastic: 100
 
 - type: latheRecipe
   id: RollerBedSpawnFolded
   result: RollerBedSpawnFolded
   completetime: 1
   materials:
-    Steel: 600
-    Plastic: 300
+    Steel: 300
+    Plastic: 200
 
 - type: latheRecipe
   parent: RollerBedSpawnFolded

@@ -8,7 +8,7 @@
     state: seedextractor
   discipline: CivilianServices
   tier: 1
-  cost: 7500 # Delta Price. 5000 is pre-adjustment.
+  cost: 3500 # Delta Price. 5000 is pre-adjustment.
   recipeUnlocks:
   - BorgModuleGardening
   - BorgModuleHarvesting
@@ -28,7 +28,7 @@
     state: hamtr
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 3500
   recipeUnlocks:
   - HamtrHarness
   - HamtrLArm
@@ -48,7 +48,7 @@
     state: cameracase
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - SurveillanceCameraRouterCircuitboard
 #  - SurveillanceCameraWirelessRouterCircuitboard # Frontier - Removal of range limits made it useless to build
@@ -67,7 +67,7 @@
     state: television
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
     - ComputerTelevisionCircuitboard
     - SynthesizerInstrument
@@ -83,7 +83,7 @@
     state: janitor
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - BorgModuleAdvancedCleaning
 
@@ -95,7 +95,7 @@
     state: display
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
   - BiogeneratorMachineCircuitboard # Frontier BiofabricatorMachineCircuitboard<BiogeneratorMachineCircuitboard
@@ -111,7 +111,7 @@
     state: astroice
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 1000
   recipeUnlocks:
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -127,7 +127,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 1500
   recipeUnlocks:
   - StasisBedMachineCircuitboard
   - CryoPodMachineCircuitboard
@@ -142,7 +142,7 @@
     state: medical
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 1000
   recipeUnlocks:
   - BorgModuleAdvancedTreatment
   - BorgModuleDefibrillator
@@ -156,7 +156,7 @@
     state: advmop
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
@@ -171,7 +171,7 @@
     state: honker
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 3500
   recipeUnlocks:
   - HonkerHarness
   - HonkerLArm
@@ -191,7 +191,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
@@ -206,7 +206,7 @@
     # state: display
   # discipline: CivilianServices
   # tier: 3
-  # cost: 15000
+  # cost: 5000
   # recipeUnlocks:
   # - CargoTelepadMachineCircuitboard
 
@@ -218,7 +218,7 @@
     state: icon
   discipline: CivilianServices
   tier: 3
-  cost: 15000 # Frontier - 10000<15000
+  cost: 5000 # Frontier - 10000<15000
   recipeUnlocks:
   - ClothingShoesBootsSpeed
 
@@ -230,7 +230,7 @@
     state: beakerbluespace
   discipline: CivilianServices
   tier: 3
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - BluespaceBeaker
   - SyringeBluespace

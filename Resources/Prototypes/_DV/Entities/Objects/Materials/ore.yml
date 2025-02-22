@@ -22,4 +22,4 @@
   suffix: Single
   components:
   - type: Stack
-    count: 1
+    count: 100

@@ -8,7 +8,7 @@
     state: fab-idle
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - ProximitySensor
   - ExosuitFabricatorMachineCircuitboard
@@ -21,7 +21,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - AnomalyScanner
   - AnomalyLocator
@@ -38,7 +38,7 @@
     state: display
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - NodeScanner
   - BorgModuleArtifact
@@ -54,7 +54,7 @@
 #     state: display
 #   discipline: Experimental
 #   tier: 1
-#   cost: 5000
+#   cost: 2000
 #   recipeUnlocks:
 #   - TechDiskComputerCircuitboard
 # End Frontier: no tech disks
@@ -67,7 +67,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 7500
+  cost: 3500
   recipeUnlocks:
   - ClothingShoesBootsMagSci
   - NFClothingShoesBootsMoon # Frontier ClothingShoesBootsMoon<NFClothingShoesBootsMoon
@@ -80,7 +80,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - WeaponGauntletGorilla
 
@@ -94,7 +94,7 @@
     state: advanced_matter_bin
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - AdvancedCapacitorStockPart
   - AdvancedMatterBinStockPart
@@ -108,7 +108,7 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
 
@@ -120,7 +120,7 @@
     state: base
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - WeaponPistolCHIMP
   # - AnomalySynchronizerCircuitboard # Frontier: doesn't make sense for Frontier
@@ -136,7 +136,7 @@
     state: icon # Frontier base<icon
   discipline: Experimental
   tier: 2
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   # - WeaponParticleDecelerator # Frontier - Cancer gun that skip walls
   - HoloprojectorField
@@ -151,7 +151,7 @@
     # state: base
   # discipline: Experimental
   # tier: 3
-  # cost: 10000
+  # cost: 2000
   # recipeUnlocks:
   # - WeaponForceGun
   # - WeaponTetherGun
@@ -164,6 +164,6 @@
     # state: icon
   # discipline: Experimental
   # tier: 3
-  # cost: 10000
+  # cost: 5000
   # recipeUnlocks:
   # - DeviceQuantumSpinInverter

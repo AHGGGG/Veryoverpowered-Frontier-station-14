@@ -4,7 +4,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   id: SteelOre5
@@ -12,7 +12,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   parent: PlasmaOre
@@ -20,7 +20,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   parent: SilverOre
@@ -28,7 +28,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   parent: SpaceQuartz
@@ -36,7 +36,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   parent: UraniumOre
@@ -44,7 +44,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   parent: BananiumOre
@@ -52,7 +52,7 @@
   suffix: 5
   components:
   - type: Stack
-    count: 5
+    count: 50
 
 - type: entity
   parent: SaltOre

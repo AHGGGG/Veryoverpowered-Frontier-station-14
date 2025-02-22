@@ -9,4 +9,4 @@
   id: InflatableDoor
   name: inflatable door
   spawn: InflatableDoorStack1
-  maxCount: 4
+  maxCount: 10

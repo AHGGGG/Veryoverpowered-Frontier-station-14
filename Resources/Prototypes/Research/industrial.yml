@@ -8,7 +8,7 @@
     state: handdrill
   discipline: Industrial
   tier: 1
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - MiningDrill
   - WeaponGrapplingGun # Frontier
@@ -24,7 +24,7 @@
     state: icon
   discipline: Industrial
   tier: 1
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
@@ -38,7 +38,7 @@
     state: empty
   discipline: Industrial
   tier: 1
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - PowerCellHigh
   - TurboItemRechargerCircuitboard
@@ -52,7 +52,7 @@
     state: base
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - FlatpackerMachineCircuitboard
 
@@ -64,7 +64,7 @@
     state: building
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - AutolatheHyperConvectionMachineCircuitboard
   - ProtolatheHyperConvectionMachineCircuitboard
@@ -79,7 +79,7 @@
     state: portgen0
   discipline: Industrial
   tier: 1
-  cost: 7500
+  cost: 3500
   recipeUnlocks:
   - PortableGeneratorPacmanMachineCircuitboard
   - PortableGeneratorSuperPacmanMachineCircuitboard
@@ -96,7 +96,7 @@
     state: freezerOff
   discipline: Industrial
   tier: 1
-  cost: 7500
+  cost: 3500
   recipeUnlocks:
   - ThermomachineFreezerMachineCircuitBoard
   - GasRecyclerMachineCircuitboard
@@ -109,7 +109,7 @@
     state: ripley
   discipline: Industrial
   tier: 1
-  cost: 7500
+  cost: 3500
   recipeUnlocks:
   - RipleyHarness
   - RipleyLArm
@@ -130,7 +130,7 @@
     state: base
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - ShuttleConsoleCircuitboard
   - ThrusterMachineCircuitboard
@@ -148,7 +148,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 7500
+  cost: 1500
   recipeUnlocks:
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
@@ -165,7 +165,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
     - WelderExperimental
     - PowerDrill
@@ -185,7 +185,7 @@
     state: handdrill
   discipline: Industrial
   tier: 2
-  cost: 12500
+  cost: 5500
   recipeUnlocks:
     - OreBagOfHolding
     - MiningDrillDiamond
@@ -205,7 +205,7 @@
     state: holding
   discipline: Industrial
   tier: 3
-  cost: 15000
+  cost: 5000
   recipeUnlocks:
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding
@@ -224,7 +224,7 @@
     state: microreactor
   discipline: Industrial
   tier: 3
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - PowerCellMicroreactor
   - NFBlueprintPowerCellMicroreactor # Frontier
@@ -239,7 +239,7 @@
     state: icon-shipyard # Frontier
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 1200
   recipeUnlocks:
     - ShipyardRCD # Frontier
     - ShipyardRCDAmmo # Frontier

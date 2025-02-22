@@ -93,7 +93,7 @@
   result: Matchbox
   completetime: 1
   materials:
-    Wood: 100
+    Wood: 50
 
 - type: latheRecipe
   id: SynthesizerInstrument
@@ -117,7 +117,7 @@
   result: AirTank
   completetime: 4
   materials:
-    Steel: 300
+    Steel: 200
 
 - type: latheRecipe
   id: ClothingShoesBootsMagSci
@@ -149,7 +149,7 @@
   result: ModularReceiver
   completetime: 12
   materials:
-    Steel: 750
+    Steel: 250
     Plastic: 100
 
 - type: latheRecipe
