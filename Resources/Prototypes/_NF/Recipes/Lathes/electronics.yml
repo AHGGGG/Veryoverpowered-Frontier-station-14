@@ -3,48 +3,48 @@
   parent: BaseCircuitboardRecipe
   result: SalvageTechFabCircuitboardNF
   materials:
-    Steel: 800
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   id: BlueprintLithographMachineCircuitboard
   parent: BaseCircuitboardRecipe
   result: BlueprintLithographMachineCircuitboard
   materials:
-    Steel: 800
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   id: ElectricRangeMachineCircuitboard
   parent: BaseCircuitboardRecipe
   result: ElectricRangeMachineCircuitboard
   materials:
-    Steel: 800
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   id: KitchenAssemblerMachineCircuitboard
   parent: BaseCircuitboardRecipe
   result: KitchenAssemblerMachineCircuitboard
   materials:
-    Steel: 600
-    Glass: 750
+    Steel: 200
+    Glass: 350
 
 - type: latheRecipe
   id: MedicalAssemblerMachineCircuitboard
   parent: BaseCircuitboardRecipe
   result: MedicalAssemblerMachineCircuitboard
   materials:
-    Steel: 800
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   id: NFScrapProcessorCircuitboard
   parent: BaseCircuitboardRecipe
   result: NFScrapProcessorCircuitboard
   materials:
-    Steel: 800
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
@@ -52,7 +52,7 @@
   result: CondimentDispenserCircuitboard
   materials:
     Steel: 100
-    Glass: 500
+    Glass: 400
 
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
@@ -66,16 +66,16 @@
   parent: BaseCircuitboardRecipe
   result: ThrusterSecurityMachineCircuitboard
   materials:
-    Steel: 400
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   id: ThrusterNfsdMachineCircuitboard
   parent: BaseCircuitboardRecipe
   result: ThrusterNfsdMachineCircuitboard
   materials:
-    Steel: 400
-    Glass: 900
+    Steel: 200
+    Glass: 400
 
 - type: latheRecipe
   id: SmallThrusterMachineCircuitboard

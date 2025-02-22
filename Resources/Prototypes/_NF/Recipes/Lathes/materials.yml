@@ -6,8 +6,8 @@
   result: MaterialDurathread1
   parent: BaseMaterialsNoDiscountRecipe
   materials:
-    Plastic: 100
-    Cloth: 100
+    Plastic: 50
+    Cloth: 50
 
 - type: latheRecipe # TODO: move somewhere else
   id: PaperFromSheetPaper

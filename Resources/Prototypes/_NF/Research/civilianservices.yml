@@ -8,7 +8,7 @@
     state: juicer1
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - MicrowaveMachineCircuitboard
   - ReagentGrinderMachineCircuitboard
@@ -26,7 +26,7 @@
     state: industrial-working
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - ChemMasterMachineCircuitboard
   - ChemDispenserMachineCircuitboard
@@ -39,7 +39,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
   - MedicalAssemblerMachineCircuitboard
   - HotplateMachineCircuitboard
@@ -54,7 +54,7 @@
     state: icon
   discipline: CivilianServices
   tier: 3
-  cost: 15000
+  cost: 1000
   recipeUnlocks:
   - JetpackVoid
 
@@ -66,7 +66,7 @@
     state: composite_off
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - DeepFryerMachineCircuitboard #Nyano - Summary: adds deep fryer circuit board to service research.
   - ServiceSelectiveDropper
@@ -81,6 +81,6 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 2000
   recipeUnlocks:
     - JanicartFlatpack

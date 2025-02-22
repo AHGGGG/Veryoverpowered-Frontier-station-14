@@ -8,7 +8,7 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 7500
+  cost: 2500
   recipeUnlocks:
   - RPED
   - NFBlueprintRped
@@ -23,7 +23,7 @@
     state: super_matter_bin
   discipline: Experimental
   tier: 3
-  cost: 15000
+  cost: 5000
   recipeUnlocks:
   - SuperCapacitorStockPart
   - SuperMatterBinStockPart
@@ -55,7 +55,7 @@
     state: icon
   discipline: Experimental
   tier: 3
-  cost: 15000
+  cost: 1000
   recipeUnlocks:
     - ClothingOuterHardsuitRd
   technologyPrerequisites:

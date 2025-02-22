@@ -19,7 +19,7 @@
   id: NFBaseBeltRecipe
   parent: NFBaseJumpsuitRecipe
   materials:
-    Cloth: 400
+    Cloth: 200
 
 - type: latheRecipe
   abstract: true
@@ -27,7 +27,7 @@
   parent: NFBaseJumpsuitRecipe
   materials:
     Cloth: 200
-    Durathread: 100
+    Durathread: 50
 
 - type: latheRecipe
   abstract: true
@@ -35,8 +35,8 @@
   parent: NFBaseJumpsuitRecipe
   materials:
     Steel: 200
-    Plastic: 300
-    Glass: 500
+    Plastic: 200
+    Glass: 300
 
 # Recipes
 

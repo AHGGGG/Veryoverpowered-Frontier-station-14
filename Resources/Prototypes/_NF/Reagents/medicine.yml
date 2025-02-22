@@ -16,9 +16,9 @@
           max: 213.0
         damage:
           types:
-            Blunt: -2
-            Piercing: -2
-            Slash: -2
+            Blunt: -5
+            Piercing: -5
+            Slash: -5
 
 - type: reagent
   id: Stelloxadone

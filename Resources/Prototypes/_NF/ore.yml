@@ -83,8 +83,8 @@
 - type: ore
   id: NFOreCoalDense
   oreEntity: Coal5
-  minOreYield: 5
-  maxOreYield: 7
+  minOreYield: 50
+  maxOreYield: 70
 
 # Medium yields
 - type: ore

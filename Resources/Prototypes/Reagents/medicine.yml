@@ -30,7 +30,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -1
+            Poison: -4
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -86,7 +86,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -3
+            Poison: -8
 
 - type: reagent
   id: Ethylredoxrazine
@@ -106,7 +106,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -0.5
+            Poison: -2.5
 
 - type: reagent
   id: Arithrazine
@@ -122,7 +122,7 @@
       - !type:HealthChange
         damage:
           types:
-            Radiation: -3
+            Radiation: -6
           groups:
             Brute: 0.5
 
@@ -140,7 +140,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -2
+            Brute: -5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -187,9 +187,9 @@
           # todo scale with temp like SS13
             groups:
               Airloss: -10 # Frontier: -6<-10
-              # Brute: -4 # Frontier
-              # Burn: -6 # Frontier
-              # Toxin: -4 # Frontier
+              # Brute: -12 # Frontier
+              # Burn: -14 # Frontier
+              # Toxin: -12 # Frontier
 
 - type: reagent
   id: Doxarubixadone
@@ -209,7 +209,7 @@
             max: 213.0
           damage:
             types:
-             Cellular: -4 # Frontier: -2<-4
+             Cellular: -8 # Frontier: -2<-4
             groups: # Frontier
                 Brute: 1 # Frontier
 
@@ -227,9 +227,9 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: -1.5
-            Shock: -1.5
-            Cold: -1.5
+            Heat: -3.5
+            Shock: -3.5
+            Cold: -3.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -259,8 +259,8 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -1
-            Bloodloss: -0.5
+            Asphyxiation: -2
+            Bloodloss: -2.5
       - !type:HealthChange
         conditions:
           - !type:ReagentThreshold
@@ -284,8 +284,8 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -3.5
-            Bloodloss: -3
+            Asphyxiation: -8.5
+            Bloodloss: -6
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
@@ -324,11 +324,11 @@
           max: 20
         damage:
           types:
-            Asphyxiation: -3
-            Poison: -0.5
+            Asphyxiation: -8
+            Poison: -3.5
           groups:
-            Brute: -0.5
-            Burn: -0.5
+            Brute: -1.5
+            Burn: -1.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -382,7 +382,7 @@
       - !type:HealthChange
         damage:
           types:
-            Radiation: -1
+            Radiation: -4
       - !type:ChemVomit
         probability: 0.02
       - !type:HealthChange
@@ -432,9 +432,9 @@
           mobstate: Critical
         damage:
           types:
-            Asphyxiation: -5
+            Asphyxiation: -15
       - !type:ModifyBleedAmount
-        amount: -0.25
+        amount: -0.50
 
 - type: reagent
   id: Kelotane
@@ -450,9 +450,9 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
+            Heat: -1.33
+            Shock: -1.33
+            Cold: -1.33
       - !type:SatiateThirst
         factor: -10
         conditions:
@@ -483,7 +483,7 @@
       - !type:HealthChange
         damage:
           types:
-            Cold: -4
+            Cold: -8
       - !type:AdjustTemperature
         conditions:
         - !type:Temperature
@@ -568,8 +568,8 @@
       - !type:HealthChange
         damage:
           types:
-            Cellular: -1
-            Radiation: 1
+            Cellular: -4
+            Radiation: 0.5
       - !type:ChemVomit
         probability: 0.05
 
@@ -587,9 +587,9 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -3.5
+            Brute: -6.5
           types:
-            Asphyxiation: -2.5
+            Asphyxiation: -4.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -661,7 +661,7 @@
         - !type:SatiateThirst
           factor: 6
         - !type:ModifyBloodLevel
-          amount: 6
+          amount: 12
 
 - type: reagent
   id: Siderlac
@@ -677,7 +677,7 @@
       - !type:HealthChange
         damage:
           types:
-            Caustic: -5
+            Caustic: -15
 
 - type: reagent
   id: Stellibinin
@@ -693,7 +693,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -4
+            Poison: -8
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
@@ -744,7 +744,7 @@
       # Medium-large quantities can hurt you instead,
       # but still technically stop your bleeding.
       - !type:ModifyBleedAmount
-        amount: -1.5
+        amount: -4.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -770,12 +770,12 @@
           max: 50
         damage:
           groups:
-            Brute: -1
+            Brute: -2
           types:
-            Poison: -0.5 ##Should be about what it was when it healed the toxin group
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
+            Poison: -1.5 ##Should be about what it was when it healed the toxin group
+            Heat: -1.33
+            Shock: -1.33
+            Cold: -1.33
 
 - type: reagent
   id: Lipozine
@@ -807,10 +807,10 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -2
-            Toxin: -2
-            Airloss: -2
-            Brute: -2
+            Burn: -8
+            Toxin: -8
+            Airloss: -8
+            Brute: -8
 
 - type: reagent
   id: Ultravasculine
@@ -830,7 +830,7 @@
           max: 30
         damage:
           groups:
-            Toxin: -3
+            Toxin: -6
             Brute: 0.5
       - !type:HealthChange
         conditions:
@@ -952,7 +952,7 @@
       - !type:HealthChange
         damage:
           types:
-            Caustic: -3
+            Caustic: -8
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -992,7 +992,7 @@
       - !type:HealthChange
         damage:
           types:
-            Slash: -3
+            Slash: -6
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -1015,7 +1015,7 @@
       - !type:HealthChange
         damage:
           types:
-            Piercing: -4
+            Piercing: -8
             Blunt: 0.1
       - !type:HealthChange
         conditions:
@@ -1039,7 +1039,7 @@
       - !type:HealthChange
         damage:
           types:
-            Blunt: -3.5
+            Blunt: -6.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -1069,11 +1069,11 @@
           max: 50
         damage:
           types:
-            Blunt: -0.2
-            Poison: -0.2
-            Heat: -0.2
-            Shock: -0.2
-            Cold: -0.2
+            Blunt: -0.8
+            Poison: -0.8
+            Heat: -0.8
+            Shock: -0.8
+            Cold: -0.8
   reactiveEffects:
     Extinguish:
       methods: [ Touch ]
@@ -1109,7 +1109,7 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: -1
+            Heat: -5
       # od causes massive bleeding
       - !type:HealthChange
         conditions:
@@ -1146,7 +1146,7 @@
       - !type:HealthChange
         damage:
           types:
-            Shock: -4
+            Shock: -8
       - !type:AdjustReagent
         reagent: Licoxide
         amount: -4
@@ -1242,10 +1242,10 @@
           max: 213.0
         damage:
           types:
-            Heat: -3.0
-            Shock: -3.0
-            Cold: -3.0 # Frontier
-            Caustic: -3.0 # Frontier
+            Heat: -8.0
+            Shock: -8.0
+            Cold: -8.0 # Frontier
+            Caustic: -8.0 # Frontier
 
 - type: reagent
   id : Mannitol # currently this is just a way to create psicodine
