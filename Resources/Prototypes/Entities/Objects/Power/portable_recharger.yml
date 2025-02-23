@@ -23,7 +23,7 @@
     needsPower: false
     powerLoad: 1 # Frontier: 0<1 (claims to work without power if 0)
   - type: StaticPrice
-    price: 500
+    price: 55000
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: ContainerContainer
