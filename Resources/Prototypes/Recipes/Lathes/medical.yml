@@ -10,6 +10,24 @@
 # Recipes
 
 - type: latheRecipe
+  id: RegenerativeMesh
+  result: OintmentAdvanced1
+  completetime: 1
+  materials:
+    Steel: 150
+    Plastic: 150
+    Cloth: 150
+
+- type: latheRecipe
+  id: MedicatedSuture
+  result: BrutepackAdvanced1
+  completetime: 1
+  materials:
+    Steel: 150
+    Plastic: 150
+    Cloth: 150
+
+- type: latheRecipe
   parent: BaseSurgicalRecipe
   id: Scalpel
   result: Scalpel

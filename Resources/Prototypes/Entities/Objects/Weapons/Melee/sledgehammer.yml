@@ -19,7 +19,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 10
-        Structural: 10
+        Blunt: 44
+        Structural: 120
   - type: Item
     size: Large
