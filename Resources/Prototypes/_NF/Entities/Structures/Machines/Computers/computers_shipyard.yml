@@ -132,7 +132,7 @@
     shipyardChannel: Syndicate
     secretShipyardChannel: Nfsd
     taxAccounts:
-      Invalid: 0.5
+      Invalid: 0.50
     ignoreBaseSaleRate: true # Fixed 50% sale rate.
     canTransferDeed: false
 
@@ -163,7 +163,7 @@
     shipyardChannel: Freelance
     secretShipyardChannel: Nfsd
     taxAccounts:
-      Invalid: 0.5
+      Invalid: 0.50
     ignoreBaseSaleRate: true # Fixed 50% sale rate.
     canTransferDeed: false
 

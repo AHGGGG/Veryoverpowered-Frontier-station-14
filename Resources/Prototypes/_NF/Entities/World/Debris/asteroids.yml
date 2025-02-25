@@ -17,7 +17,7 @@
             prob: 1.025
           - id: NFRockMineralHard
             orGroup: rock
-            prob: 0.1223
+            prob: 0
           # Room
           - id: NFAsteroidRoomMarker
             orGroup: rock
@@ -65,7 +65,7 @@
             prob: 0.807
           - id: NFIceMineralHard
             orGroup: rock
-            prob: 0.1305
+            prob: 0
           # Room
           - id: NFSnowRoomMarker
             orGroup: rock
@@ -115,7 +115,7 @@
             prob: 0.929
           - id: NFAndesiteMineralHard
             orGroup: rock
-            prob: 0.1317
+            prob: 0
           # Room
           - id: NFAndesiteRoomMarker
             orGroup: rock
@@ -155,7 +155,7 @@
             prob: 0.905
           - id: NFBasaltMineralHard
             orGroup: rock
-            prob: 0.115
+            prob: 0
           # Room
           - id: NFBasaltRoomMarker
             orGroup: rock
@@ -195,7 +195,7 @@
             prob: 0.899
           - id: NFSandMineralHard
             orGroup: rock
-            prob: 0.1227
+            prob: 0
           # Room
           - id: NFSandRoomMarker
             orGroup: rock
@@ -235,7 +235,7 @@
             prob: 0.8225
           - id: NFChromiteMineralHard
             orGroup: rock
-            prob: 0.11175
+            prob: 0
           # Room
           - id: NFChromiteRoomMarker
             orGroup: rock
@@ -277,7 +277,7 @@
             prob: 1.392
           - id: NFAsteroidMineralHard
             orGroup: rock
-            prob: 0.1682
+            prob: 0
           # Room
           - id: NFAsteroidRockRoomMarker
             orGroup: rock
@@ -319,7 +319,7 @@
             prob: 0.77
           - id: WallSolidRust
             orGroup: rock
-            prob: 0.05
+            prob: 0
     - type: IFF
       color: "#fcdec7"
 # endregion Scrap Table

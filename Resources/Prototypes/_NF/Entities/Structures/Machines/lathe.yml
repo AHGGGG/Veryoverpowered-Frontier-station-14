@@ -680,6 +680,52 @@
       - AirTank
     # Mercenary techfab
     ## Clothing / Armor
+      - BoxLethalshot
+      - BoxShotgunPractice
+      - BoxShotgunSlug
+      - ClothingEyesHudNfsd
+      - CombatKnife
+      - Flash
+      - ForensicPad
+      - Handcuffs
+      - MagazineBoxLightRifle
+      - MagazineBoxLightRiflePractice
+      - MagazineBoxMagnum
+      - MagazineBoxMagnumPractice
+      - MagazineBoxPistol
+      - MagazineBoxPistolPractice
+      - MagazineBoxRifle
+      - MagazineBoxRiflePractice
+      - MagazineLightRifle
+      - MagazineLightRifleEmpty
+      - MagazinePistol
+      - MagazinePistolEmpty
+      - MagazinePistolSubMachineGun
+      - MagazinePistolSubMachineGunEmpty
+      - MagazinePistolSubMachineGunTopMounted
+      - MagazinePistolSubMachineGunTopMountedEmpty
+      - MagazineRifle
+      - MagazineRifleEmpty
+      - MagazineShotgun
+      - MagazineShotgunEmpty
+      - MagazineShotgunSlug
+      - RiotShield
+      - SpeedLoaderMagnum
+      - SpeedLoaderMagnumEmpty
+      - SpeedLoaderRifleHeavy
+      - SpeedLoaderRifleHeavyEmpty
+      - Stunbaton
+      - TargetClown
+      - TargetHuman
+      - TargetSyndicate
+      - WeaponDisablerPractice
+      - SpeedLoaderRifleHeavyRubber
+      - SpeedLoaderMagnumRubber
+      - MagazineRifleRubber
+      - MagazineShotgunBeanbag
+      - MagazineShotgunSlug
+      - MagazinePistolRubber
+      - MagazineLightRifleRubber
       - RiotShield
       - ClothingNeckIFFNeutral
       - ClothingNeckIFFGreen
@@ -727,6 +773,28 @@
       - CrossbowModern
       - WeaponPistolPollock
     ## Ammo boxes
+      - BoxShotgunIncendiary
+      - BoxShotgunUranium
+      - MagazineBoxLightRifleIncendiary
+      - MagazineBoxLightRifleUranium
+      - MagazineBoxMagnumIncendiary
+      - MagazineBoxMagnumUranium
+      - MagazineBoxPistolIncendiary
+      - MagazineBoxPistolUranium
+      - MagazineBoxRifleIncendiary
+      - MagazineBoxRifleUranium
+      - MagazineGrenadeEmpty
+      - MagazineLightRifleIncendiary
+      - MagazineLightRifleUranium
+      - MagazinePistolIncendiary
+      - MagazinePistolUranium
+      - MagazineRifleIncendiary
+      - MagazineRifleUranium
+      - MagazineShotgunIncendiary
+      - SpeedLoaderMagnumIncendiary
+      - SpeedLoaderMagnumUranium
+      - SpeedLoaderRifleHeavyIncendiary
+      - SpeedLoaderRifleHeavyUranium
       - BoxLethalshot
       - MagazineBoxLightRifle
       - MagazineBoxPistol

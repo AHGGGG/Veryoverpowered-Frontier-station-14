@@ -17,56 +17,56 @@
         - prob: 1 # Intentional blank.
         # Walls
         - id: Girder
-          prob: 0.3
-        - id: WallSolid
-          prob: 0.3
-        - id: WallReinforced
           prob: 0.2
+        - id: WallSolid
+          prob: 0.1
+        - id: WallReinforced
+          prob: 0.08
         - id: AirlockMaint
           prob: 0.01
         - id: Barricade
           prob: 0.01
         # Floor loot
         - id: SalvageSpawnerScrapCommon
-          prob: 3.5
+          prob: 4.0
         - id: SalvageSpawnerTreasure
-          prob: 0.3
+          prob: 1.3
         - id: SpawnDungeonLootSeed
-          prob: 0.1
+          prob: 0.5
         - id: SalvageSpawnerTreasureValuable
-          prob: 0.05
+          prob: 0.5
         - id: SalvageSpawnerEquipment
-          prob: 0.05
+          prob: 0.08
         - id: SalvageSpawnerEquipmentValuable
-          prob: 0.03
+          prob: 0.09
         - id: SpawnDungeonClutterMedsSingle
-          prob: 0.03
+          prob: 0.08
         - id: SpawnDungeonLootBureaucracy
           prob: 0.03
         - id: SpawnDungeonLootToolsHydroponics
           prob: 0.03
         # Machine upgrades
         - id: SalvagePartsT2Spawner
-          prob: 0.01
+          prob: 0.3
         - id: SalvagePartsT3Spawner
-          prob: 0.005
+          prob: 0.4
         - id: SalvagePartsT4Spawner
-          prob: 0.002
+          prob: 0.5
         # Big loot
         - id: NFSalvageMaterialCrateSpawner
-          prob: 0.9
+          prob: 1.2
         - id: NFSalvageChemicalBarrelSpawner
-          prob: 0.08
+          prob: 0.06
         - id: NFSalvageServiceBarrelSpawner
           prob: 0.02
         - id: NFSalvageDrinkableBarrelSpawner
-          prob: 0.02
-        - id: NFSalvageEmptyBarrelSpawner
           prob: 0.03
+        - id: NFSalvageEmptyBarrelSpawner
+          prob: 0.02
         - id: SalvageCanisterSpawner
-          prob: 0.2
+          prob: 0.3
         - id: SalvageLockerSpawner
-          prob: 0.2
+          prob: 0.3
         - id: SalvageGeneratorSpawner
           prob: 0.1
         - id: SalvageFurnitureSpawner
@@ -74,9 +74,9 @@
         - id: SalvageSuitStorageSpawner
           prob: 0.1
         - id: RandomArtifactSpawner
-          prob: 0.05
+          prob: 0.1
         - id: SalvageTankSpawnerHighCapacity
-          prob: 0.0005
+          prob: 0.2
         # Medical
         - id: MedicalPodFilled # Medical bounties
           prob: 0.03
@@ -116,9 +116,9 @@
         - prob: 3 # Intentional blank.
         # Walls
         - id: ClockworkGirder
-          prob: 0.3
+          prob: 0.2
         - id: WallClock
-          prob: 0.3
+          prob: 0.1
         - id: ClockworkWindow
           prob: 0.2
         - id: PinionAirlock
