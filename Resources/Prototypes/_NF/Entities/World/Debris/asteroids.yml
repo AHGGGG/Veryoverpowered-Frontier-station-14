@@ -62,7 +62,7 @@
         FloorIce:
           - id: NFIceMineralSoft
             orGroup: rock
-            prob: 0.807
+            prob: 0.907
           - id: NFIceMineralHard
             orGroup: rock
             prob: 0
