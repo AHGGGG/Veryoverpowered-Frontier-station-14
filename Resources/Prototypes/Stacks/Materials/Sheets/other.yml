@@ -10,7 +10,7 @@
   name: plasma
   icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plasma }
   spawn: SheetPlasma1
-  maxCount: 100
+  maxCount: 30
 
 - type: stack
   id: Plastic
@@ -24,4 +24,4 @@
   name: uranium
   icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uranium }
   spawn: SheetUranium1
-  maxCount: 100
+  maxCount: 30
