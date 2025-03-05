@@ -10,7 +10,7 @@
       tags:
         - CartridgePistol
     proto: CartridgePistol
-    capacity: 160
+    capacity: 350
   - type: Item
     size: Small
   - type: ContainerContainer

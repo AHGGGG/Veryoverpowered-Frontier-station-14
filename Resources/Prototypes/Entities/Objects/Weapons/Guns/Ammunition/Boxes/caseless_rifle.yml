@@ -10,7 +10,7 @@
       tags:
         - CartridgeCaselessRifle
     proto: CartridgeCaselessRifle
-    capacity: 160
+    capacity: 350
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -31,7 +31,7 @@
   name: ammunition box (.25 caseless)
   components:
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 350
     proto: CartridgeCaselessRifle
   - type: Icon # Frontier
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/caseless_rifle.rsi # Frontier

@@ -36,13 +36,13 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 140
+            damage: 240
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 100 #This is probably enough damage before it breaks
+            damage: 200 #This is probably enough damage before it breaks
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]

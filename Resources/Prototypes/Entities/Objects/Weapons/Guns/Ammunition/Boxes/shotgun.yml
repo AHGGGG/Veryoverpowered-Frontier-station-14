@@ -23,7 +23,7 @@
       whitelist:
         tags:
         - ShellShotgun
-      capacity: 80
+      capacity: 180
     - type: MagazineVisuals
       magState: mag
       steps: 5

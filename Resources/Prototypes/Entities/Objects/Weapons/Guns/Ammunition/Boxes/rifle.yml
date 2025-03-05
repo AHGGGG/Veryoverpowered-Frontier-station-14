@@ -9,7 +9,7 @@
       tags:
         - CartridgeRifle
     proto: CartridgeRifle
-    capacity: 150
+    capacity: 450
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -30,7 +30,7 @@
   name: ammunition box (.20 rifle)
   components:
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 450
     proto: CartridgeRifle
   - type: Icon # Frontier
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi # Frontier

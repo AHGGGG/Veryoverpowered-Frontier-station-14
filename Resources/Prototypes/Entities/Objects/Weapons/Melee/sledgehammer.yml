@@ -12,14 +12,14 @@
     damage:
       types:
         Blunt: 10
-        Structural: 10
+        Structural: 20
     soundHit:
       collection: MetalThud
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 44
+        Blunt: 84
         Structural: 120
   - type: Item
     size: Large
