@@ -366,8 +366,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 26
-      radius: 12
+      floorPlacements: 16
+      radius: 6
 
 - type: entity
   id: NFBaseAsteroidMedium
@@ -376,8 +376,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 44
-      radius: 17
+      floorPlacements: 24
+      radius: 8
 
 - type: entity
   id: NFBaseAsteroidLarge
@@ -386,8 +386,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 66
-      radius: 20
+      floorPlacements: 24
+      radius: 8
 
 - type: entity
   id: NFBaseAsteroidExtraLarge
@@ -396,8 +396,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 102
-      radius: 24
+      floorPlacements: 36
+      radius: 10
 
 - type: entity
   id: NFBaseAsteroidHuge
@@ -406,8 +406,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 172
-      radius: 34
+      floorPlacements: 52
+      radius: 12
 
 - type: entity
   id: NFBaseAsteroidExtraHuge
@@ -416,8 +416,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 196
-      radius: 45
+      floorPlacements: 72
+      radius: 16
 
 - type: entity
   id: NFBaseAsteroidEnormous
@@ -426,8 +426,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 224
-      radius: 80
+      floorPlacements: 96
+      radius: 18
 
 - type: entity
   id: NFBaseAsteroidExtraEnormous
@@ -436,8 +436,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 356
-      radius: 92
+      floorPlacements: 124
+      radius: 20
 
 - type: entity
   id: NFBaseAsteroidMassive
@@ -446,8 +446,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 192
-      radius: 24
+      floorPlacements: 156
+      radius: 22
 
 - type: entity
   id: NFBaseAsteroidExtraMassive
@@ -456,7 +456,7 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 232
+      floorPlacements: 192
       radius: 24
 
 - type: entity
@@ -466,7 +466,7 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 276
+      floorPlacements: 232
       radius: 26
 
 - type: entity

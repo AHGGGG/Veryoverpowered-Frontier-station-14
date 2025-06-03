@@ -167,7 +167,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 62
+    floorPlacements: 52
     radius: 12
 
 - type: entity
@@ -177,7 +177,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 82
+    floorPlacements: 72
     radius: 14
 
 - type: entity
@@ -187,7 +187,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 106
+    floorPlacements: 96
     radius: 16
 
 - type: entity
@@ -197,7 +197,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 224
+    floorPlacements: 124
     radius: 18
 
 - type: entity
@@ -207,7 +207,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 356
+    floorPlacements: 156
     radius: 20
 
 - type: entity
@@ -217,7 +217,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 492
+    floorPlacements: 192
     radius: 22
 
 - type: entity
@@ -227,7 +227,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 532
+    floorPlacements: 232
     radius: 24
 # endregion Wreck Sizes
 
