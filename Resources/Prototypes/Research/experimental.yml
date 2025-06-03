@@ -78,7 +78,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - WeaponGauntletGorilla
 
@@ -92,7 +92,7 @@
     state: advanced_matter_bin
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - AdvancedCapacitorStockPart
   - AdvancedMatterBinStockPart
@@ -118,7 +118,7 @@
     state: base
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - NFWeaponPistolCHIMP # Frontier: add NF prefix
   # - AnomalySynchronizerCircuitboard # Frontier: doesn't make sense for Frontier
@@ -178,6 +178,6 @@
     state: icon
   discipline: Experimental
   tier: 3
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - DeviceDesynchronizer

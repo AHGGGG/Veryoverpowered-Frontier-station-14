@@ -12,7 +12,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle20
-    capacity: 8
+    capacity: 17
   - type: Sprite
   - type: ContainerContainer
     containers:

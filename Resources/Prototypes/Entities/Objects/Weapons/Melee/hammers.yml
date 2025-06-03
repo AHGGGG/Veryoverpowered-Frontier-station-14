@@ -11,7 +11,7 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 10
+        Blunt: 5
         Structural: 10
     soundHit:
       collection: MetalThud
@@ -19,8 +19,8 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 10
-        Structural: 10
+        Blunt: 50
+        Structural: 80
   - type: Item
     size: Large
 
@@ -57,8 +57,8 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 20
-        Structural: 25
+        Blunt: 40
+        Structural: 35
   - type: DamageOtherOnHit
     damage:
       types:

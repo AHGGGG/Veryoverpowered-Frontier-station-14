@@ -53,56 +53,56 @@
       entity: WallRockChromiteTin
       count: 50
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 20
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteCoal
       count: 50
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteQuartz
       count: 50
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteSalt
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 1
+      maxGroupSize: 1
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteGold
       count: 40
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteSilver
       count: 40
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromitePlasma
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteUranium
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
@@ -115,15 +115,15 @@
       - WallRockChromite
       entity: WallRockChromiteArtifactFragment
       count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
+      minGroupSize: 11
+      maxGroupSize: 13
     - !type:OreDunGen
       entityMask:
       - WallRockChromite
       entity: WallRockChromiteDiamond
       count: 15
-      minGroupSize: 1
-      maxGroupSize: 2
+      minGroupSize: 11
+      maxGroupSize: 12
     - !type:OreDunGen
       entityMask:
       - WallRockChromite

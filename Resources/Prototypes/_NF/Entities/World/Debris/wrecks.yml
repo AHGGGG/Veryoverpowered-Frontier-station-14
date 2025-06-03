@@ -17,69 +17,69 @@
         - prob: 1 # Intentional blank.
         # Walls
         - id: Girder
-          prob: 0.3
-        - id: WallSolid
-          prob: 0.3
-        - id: WallReinforced
           prob: 0.2
+        - id: WallSolid
+          prob: 0.2
+        - id: WallReinforced
+          prob: 0.1
         - id: AirlockMaint
           prob: 0.01
         - id: Barricade
           prob: 0.01
         # Floor loot
         - id: SalvageSpawnerScrapCommon
-          prob: 3.5
+          prob: 2.5
         - id: SalvageSpawnerTreasure
-          prob: 0.3
+          prob: 1.3
         - id: SpawnDungeonLootSeed
           prob: 0.1
         - id: SalvageSpawnerTreasureValuable
-          prob: 0.05
+          prob: 1.05
         - id: SalvageSpawnerEquipment
-          prob: 0.05
+          prob: 1.05
         - id: SalvageSpawnerEquipmentValuable
-          prob: 0.03
+          prob: 1.03
         - id: SpawnDungeonClutterMedsSingle
-          prob: 0.03
+          prob: 0.43
         - id: SpawnDungeonLootBureaucracy
-          prob: 0.03
+          prob: 0.43
         - id: SpawnDungeonLootToolsHydroponics
-          prob: 0.03
+          prob: 0.43
         # Machine upgrades
         - id: SalvagePartsT2Spawner
-          prob: 0.01
+          prob: 0.001
         - id: SalvagePartsT3Spawner
-          prob: 0.005
+          prob: 0.02
         - id: SalvagePartsT4Spawner
-          prob: 0.002
+          prob: 0.1
         # Big loot
         - id: NFSalvageMaterialCrateSpawner
-          prob: 0.9
+          prob: 1.9
         - id: NFSalvageChemicalBarrelSpawner
-          prob: 0.08
+          prob: 1.08
         - id: NFSalvageServiceBarrelSpawner
-          prob: 0.02
+          prob: 1.02
         - id: NFSalvageDrinkableBarrelSpawner
-          prob: 0.02
+          prob: 1.02
         - id: NFSalvageEmptyBarrelSpawner
-          prob: 0.03
+          prob: 1.03
         - id: SalvageCanisterSpawner
-          prob: 0.2
+          prob: 1.2
         - id: NFSalvageLockerSpawner
-          prob: 0.2
+          prob: 1.2
         - id: NFSalvageGeneratorSpawner
-          prob: 0.1
+          prob: 1.1
         - id: NFSalvageFurnitureSpawner
-          prob: 0.1
+          prob: 1.1
         - id: NFSalvageSuitStorageSpawner
-          prob: 0.1
+          prob: 1.1
         - id: RandomArtifactSpawner
-          prob: 0.05
+          prob: 1.05
         - id: NFSalvageTankSpawnerHighCapacity
-          prob: 0.0005
+          prob: 1.0005
         # Medical
         - id: MedicalPodFilled # Medical bounties
-          prob: 0.03
+          prob: 0.23
         # Mobs
         - id: NFSalvageMobSpawner
           prob: 0.1
@@ -116,9 +116,9 @@
         - prob: 3 # Intentional blank.
         # Walls
         - id: ClockworkGirder
-          prob: 0.3
+          prob: 0.1
         - id: WallClock
-          prob: 0.3
+          prob: 0.1
         - id: ClockworkWindow
           prob: 0.2
         - id: PinionAirlock
@@ -130,19 +130,19 @@
           prob: 1
         # Machine upgrades
         - id: SalvagePartsT2Spawner
-          prob: 0.1
-        - id: SalvagePartsT3Spawner
-          prob: 0.05
-        - id: SalvagePartsT4Spawner
           prob: 0.01
+        - id: SalvagePartsT3Spawner
+          prob: 0.02
+        - id: SalvagePartsT4Spawner
+          prob: 0.05
         # Big loot
         - id: NFSalvageBrassFurnitureSpawner
-          prob: 0.03
+          prob: 1.03
         - id: AltarTechnology
-          prob: 0.03
+          prob: 1.03
         # "Medical"
         - id: RipleyChassis # Build it yourself
-          prob: 0.03
+          prob: 1.03
         # "Mobs"
         - id: PlayerBorgDerelictGhostRole
           prob: 0.005
@@ -167,7 +167,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 52
+    floorPlacements: 62
     radius: 12
 
 - type: entity
@@ -177,7 +177,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 72
+    floorPlacements: 82
     radius: 14
 
 - type: entity
@@ -187,7 +187,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 96
+    floorPlacements: 106
     radius: 16
 
 - type: entity
@@ -197,7 +197,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 124
+    floorPlacements: 224
     radius: 18
 
 - type: entity
@@ -207,7 +207,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 156
+    floorPlacements: 356
     radius: 20
 
 - type: entity
@@ -217,7 +217,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 192
+    floorPlacements: 492
     radius: 22
 
 - type: entity
@@ -227,7 +227,7 @@
   abstract: true
   components:
   - type: BlobFloorPlanBuilder
-    floorPlacements: 232
+    floorPlacements: 532
     radius: 24
 # endregion Wreck Sizes
 

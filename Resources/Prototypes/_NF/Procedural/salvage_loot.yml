@@ -5,11 +5,11 @@
     - !type:RandomSpawnsLoot
       entries:
         - proto: SalvageSpawnerEquipmentValuable100
-          prob: 0.1
-        - proto: SalvageSpawnerEquipment100
           prob: 0.2
-        - proto: SalvageSpawnerTreasureValuable100
+        - proto: SalvageSpawnerEquipment100
           prob: 0.4
+        - proto: SalvageSpawnerTreasureValuable100
+          prob: 0.8
         - proto: SalvageSpawnerTreasure100
 #        - proto: SalvageSpawnerScrapValuable100
 

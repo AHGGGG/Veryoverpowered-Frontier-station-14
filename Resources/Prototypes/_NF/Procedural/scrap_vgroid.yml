@@ -51,56 +51,56 @@
       entity: NFWallRockScrapPileIron
       count: 30
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 25
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileCoal
       count: 30
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileQuartz
       count: 10
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 25
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileSalt
       count: 10
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 1
+      maxGroupSize: 1
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileGold
       count: 15
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileSilver
       count: 15
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPilePlasma
       count: 20
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileUranium
       count: 20
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
@@ -113,15 +113,15 @@
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileArtifactFragment
       count: 15
-      minGroupSize: 1
-      maxGroupSize: 3
+      minGroupSize: 11
+      maxGroupSize: 13
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile
       entity: NFWallRockScrapPileDiamond
       count: 5
-      minGroupSize: 1
-      maxGroupSize: 2
+      minGroupSize: 11
+      maxGroupSize: 12
     - !type:OreDunGen
       entityMask:
       - NFWallRockScrapPile

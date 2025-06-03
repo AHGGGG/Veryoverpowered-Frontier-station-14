@@ -3,9 +3,9 @@
   result: JetpackVoid
   completetime: 15
   materials:
-    Steel: 3000
-    Glass: 1500
-    Plastic: 1000
+    Steel: 300
+    Glass: 150
+    Plastic: 100
     Gold: 300
     Silver: 800
 
@@ -14,9 +14,9 @@
   result: ClothingBackpackMessengerHolding
   completetime: 5
   materials:
-    Steel: 2000
+    Steel: 200
     Silver: 750
-    Plasma: 1250 #Higher Plasma due to it needing less bluespace
+    Plasma: 125 #Higher Plasma due to it needing less bluespace
     Uranium: 150
     Bluespace: 300 #DeltaV: Bluespace Exists
 
@@ -25,9 +25,9 @@
   result: ConstructionBagOfHolding
   completetime: 5
   materials:
-    Steel: 2000
+    Steel: 200
     Silver: 750
-    Plasma: 1000 #DeltaV: Bluespace Exists so less plasma used, no uranium
+    Plasma: 100 #DeltaV: Bluespace Exists so less plasma used, no uranium
     Bluespace: 200 #DeltaV: Bluespace Exists
 
 - type: latheRecipe

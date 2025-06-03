@@ -14,10 +14,10 @@
         FloorAsteroidSand:
           - id: NFRockMineralSoft
             orGroup: rock
-            prob: 1.025
+            prob: 2.025
           - id: NFRockMineralHard
             orGroup: rock
-            prob: 0.1223
+            prob: 0
           # Room
           - id: NFAsteroidRoomMarker
             orGroup: rock
@@ -67,10 +67,10 @@
         FloorIce:
           - id: NFIceMineralSoft
             orGroup: rock
-            prob: 0.807
+            prob: 2.807
           - id: NFIceMineralHard
             orGroup: rock
-            prob: 0.1305
+            prob: 0
           # Room
           - id: NFSnowRoomMarker
             orGroup: rock
@@ -122,10 +122,10 @@
         FloorCaveDrought:
           - id: NFAndesiteMineralSoft
             orGroup: rock
-            prob: 0.929
+            prob: 2.929
           - id: NFAndesiteMineralHard
             orGroup: rock
-            prob: 0.1317
+            prob: 0
           # Room
           - id: NFAndesiteRoomMarker
             orGroup: rock
@@ -167,10 +167,10 @@
         FloorBasalt:
           - id: NFBasaltMineralSoft
             orGroup: rock
-            prob: 0.905
+            prob: 2.905
           - id: NFBasaltMineralHard
             orGroup: rock
-            prob: 0.115
+            prob: 0
           # Room
           - id: NFBasaltRoomMarker
             orGroup: rock
@@ -212,10 +212,10 @@
         FloorLowDesert:
           - id: NFSandMineralSoft
             orGroup: rock
-            prob: 0.899
+            prob: 2.899
           - id: NFSandMineralHard
             orGroup: rock
-            prob: 0.1227
+            prob: 0
           # Room
           - id: NFSandRoomMarker
             orGroup: rock
@@ -257,10 +257,10 @@
         FloorChromite:
           - id: NFChromiteMineralSoft
             orGroup: rock
-            prob: 0.8225
+            prob: 2.8225
           - id: NFChromiteMineralHard
             orGroup: rock
-            prob: 0.11175
+            prob: 0
           # Room
           - id: NFChromiteRoomMarker
             orGroup: rock
@@ -304,10 +304,10 @@
         FloorAsteroidSand:
           - id: NFAsteroidMineralSoft
             orGroup: rock
-            prob: 1.392
+            prob: 2.392
           - id: NFAsteroidMineralHard
             orGroup: rock
-            prob: 0.1682
+            prob: 0
           # Room
           - id: NFAsteroidRockRoomMarker
             orGroup: rock
@@ -351,10 +351,10 @@
         Lattice:
           - id: NFScrapMineralSoft
             orGroup: rock
-            prob: 0.77
+            prob: 2.77
           - id: WallSolidRust
             orGroup: rock
-            prob: 0.05
+            prob: 0.02
     - type: IFF
       color: "#fcdec7"
 # endregion Scrap Table
@@ -366,8 +366,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 16
-      radius: 6
+      floorPlacements: 26
+      radius: 12
 
 - type: entity
   id: NFBaseAsteroidMedium
@@ -376,8 +376,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 24
-      radius: 8
+      floorPlacements: 44
+      radius: 17
 
 - type: entity
   id: NFBaseAsteroidLarge
@@ -386,8 +386,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 36
-      radius: 10
+      floorPlacements: 66
+      radius: 20
 
 - type: entity
   id: NFBaseAsteroidExtraLarge
@@ -396,8 +396,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 52
-      radius: 12
+      floorPlacements: 102
+      radius: 24
 
 - type: entity
   id: NFBaseAsteroidHuge
@@ -406,8 +406,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 72
-      radius: 16
+      floorPlacements: 172
+      radius: 34
 
 - type: entity
   id: NFBaseAsteroidExtraHuge
@@ -416,8 +416,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 96
-      radius: 18
+      floorPlacements: 196
+      radius: 45
 
 - type: entity
   id: NFBaseAsteroidEnormous
@@ -426,8 +426,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 124
-      radius: 20
+      floorPlacements: 224
+      radius: 80
 
 - type: entity
   id: NFBaseAsteroidExtraEnormous
@@ -436,8 +436,8 @@
   abstract: true
   components:
     - type: BlobFloorPlanBuilder
-      floorPlacements: 156
-      radius: 22
+      floorPlacements: 356
+      radius: 92
 
 - type: entity
   id: NFBaseAsteroidMassive

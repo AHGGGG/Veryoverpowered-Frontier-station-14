@@ -22,7 +22,7 @@
     state: super_matter_bin
   discipline: Experimental
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - SuperCapacitorStockPart
   - SuperMatterBinStockPart
@@ -36,7 +36,7 @@
     state: icon
   discipline: Experimental
   tier: 3
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - ClothingShoesBootsMagAdv
   technologyPrerequisites:
@@ -50,7 +50,7 @@
     state: icon
   discipline: Experimental
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - ClothingOuterHardsuitRd
   technologyPrerequisites:

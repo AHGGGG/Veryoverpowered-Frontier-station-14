@@ -21,8 +21,8 @@
 - type: ore
   id: NFOreScrap
   oreEntity: ScrapOre3
-  minOreYield: 1
-  maxOreYield: 5
+  minOreYield: 10
+  maxOreYield: 50
 
 # Stacks
 - type: stack
@@ -38,7 +38,7 @@
   suffix: Single
   components:
   - type: Stack
-    count: 1
+    count: 10
 
 - type: entity
   parent: ScrapOre

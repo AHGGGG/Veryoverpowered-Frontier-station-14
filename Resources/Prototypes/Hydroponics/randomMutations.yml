@@ -45,7 +45,7 @@
         maxValue: 1.2
         steps: 5
     - name: ChangeIdealHeat
-      baseOdds: 0.018
+      baseOdds: 0.008
       persists: false
       effect: !type:PlantChangeStat
         targetValue: IdealHeat
@@ -69,7 +69,7 @@
         maxValue: 10
         steps: 5
     - name: ChangeLowPressureTolerance
-      baseOdds: 0.018
+      baseOdds: 0.008
       persists: false
       effect: !type:PlantChangeStat
         targetValue: LowPressureTolerance
@@ -89,7 +89,7 @@
       persists: false
       effect: !type:PlantChangeStat
         targetValue: PestTolerance
-        minValue: 0
+        minValue: 10
         maxValue: 15
         steps: 5
     - name: ChangeWeedTolerance
@@ -97,7 +97,7 @@
       persists: false
       effect: !type:PlantChangeStat
         targetValue: WeedTolerance
-        minValue: 0
+        minValue: 10
         maxValue: 15
         steps: 5
     - name: ChangeEndurance
@@ -109,12 +109,12 @@
         maxValue: 150
         steps: 5
     - name: ChangeYield
-      baseOdds: 0.036
+      baseOdds: 0.046
       persists: false
       effect: !type:PlantChangeStat
         targetValue: Yield
-        minValue: 3
-        maxValue: 10
+        minValue: 10
+        maxValue: 100
         steps: 5
     - name: ChangeLifespan
       baseOdds: 0.036
@@ -133,23 +133,23 @@
         maxValue: 8
         steps: 5
     - name: ChangeProduction
-      baseOdds: 0.036
+      baseOdds: 0.046
       persists: false
       effect: !type:PlantChangeStat
         targetValue: Production
         minValue: 1
-        maxValue: 10
+        maxValue: 100
         steps: 5
     - name: ChangePotency
-      baseOdds: 0.036
+      baseOdds: 0.046
       persists: false
       effect: !type:PlantChangeStat
         targetValue: Potency
         minValue: 30
-        maxValue: 100
+        maxValue: 200
         steps: 5
     - name: ChangeSeedless
-      baseOdds: 0.036
+      baseOdds: 0.001
       persists: false
       effect: !type:PlantChangeStat
         targetValue: Seedless

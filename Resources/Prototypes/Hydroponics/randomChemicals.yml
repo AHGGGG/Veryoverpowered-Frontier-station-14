@@ -2,7 +2,7 @@
   id: RandomPickBotanyReagent
   fills:
   - quantity: 5
-    weight: 0.5
+    weight: 4
     reagents:
     - Omnizine
     - Nocturine

@@ -6,7 +6,7 @@
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
-    capacity: 30
+    capacity: 230
   - type: Sprite
   - type: ContainerContainer
     containers:
@@ -23,7 +23,7 @@
     whitelist:
       tags:
         - BulletFoam
-    capacity: 40
+    capacity: 240
     # proto: BulletFoam # Frontier
   - type: Sprite
     sprite: Objects/Storage/boxes.rsi
@@ -38,7 +38,7 @@
   components:
   - type: BallisticAmmoProvider
     # proto: CartridgeCap # Frontier
-    capacity: 20
+    capacity: 220
   - type: MagazineVisuals
     magState: mag-cap
     steps: 4

@@ -14,7 +14,7 @@
     whitelist:
       tags:
         - NFCartridgePistol35
-    capacity: 8
+    capacity: 17
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Pistol35/speed_loader.rsi
     layers:

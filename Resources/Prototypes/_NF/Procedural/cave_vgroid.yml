@@ -53,56 +53,56 @@
       entity: WallRockTin
       count: 50
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 20
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockCoal
       count: 50
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockQuartz
       count: 50
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 20
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockSalt
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 1
+      maxGroupSize: 1
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockGold
       count: 40
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockSilver
       count: 40
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockPlasma
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockUranium
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRock
@@ -115,22 +115,22 @@
       - WallRock
       entity: WallRockArtifactFragment
       count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
+      minGroupSize: 11
+      maxGroupSize: 13
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: WallRockDiamond
       count: 15
-      minGroupSize: 1
-      maxGroupSize: 2
+      minGroupSize: 11
+      maxGroupSize: 12
     - !type:OreDunGen
       entityMask:
       - WallRock
       entity: NFWallRockBluespace
       count: 10
-      minGroupSize: 1
-      maxGroupSize: 1
+      minGroupSize: 11
+      maxGroupSize: 11
     # Decoration
     # - !type:OreDunGen
       # tileMask:

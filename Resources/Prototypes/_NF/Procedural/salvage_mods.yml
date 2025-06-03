@@ -285,35 +285,35 @@
     # - 0 # nitrous oxide
     # - 0 # frezon
 
-- type: salvageAirMod
-  id: Mix12
-  cost: 4
-  desc: salvage-air-mod-12
-  gases:
-    - 0 # oxygen
-    - 0 # nitrogen
-    - 0 # carbon dioxide
-    - 0 # plasma
-    - 0 # tritium
-    - 103.927899 # water vapor
-    - 0 # miasma
-    - 0 # nitrous oxide
-    - 0 # frezon
+# - type: salvageAirMod
+ # id: Mix12
+ # cost: 4
+ # desc: salvage-air-mod-12
+ # gases:
+   # - 0 # oxygen
+   # - 0 # nitrogen
+   # - 0 # carbon dioxide
+   # - 0 # plasma
+   # - 0 # tritium
+   # - 103.927899 # water vapor
+   # - 0 # miasma
+   # - 0 # nitrous oxide
+   # - 0 # frezon
 
-- type: salvageAirMod
-  id: Mix13
-  cost: 4
-  desc: salvage-air-mod-13
-  gases:
-    - 0 # oxygen
-    - 0 # nitrogen
-    - 0 # carbon dioxide
-    - 0 # plasma
-    - 0 # tritium
-    - 0 # water vapor
-    - 103.927899 # miasma
-    - 0 # nitrous oxide
-    - 0 # frezon
+# - type: salvageAirMod
+ # id: Mix13
+ # cost: 4
+ # desc: salvage-air-mod-13
+ # gases:
+   # - 0 # oxygen
+   # - 0 # nitrogen
+   # - 0 # carbon dioxide
+   # - 0 # plasma
+   # - 0 # tritium
+   # - 0 # water vapor
+   # - 103.927899 # miasma
+   # - 0 # nitrous oxide
+   # - 0 # frezon
 
 # - type: salvageAirMod
   # id: Mix14

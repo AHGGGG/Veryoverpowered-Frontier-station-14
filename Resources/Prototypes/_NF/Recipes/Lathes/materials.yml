@@ -6,7 +6,7 @@
   result: MaterialDurathread1
   parent: BaseMaterialsNoDiscountRecipe
   materials:
-    Plastic: 100
+    Glass: 100
     Cloth: 100
 
 - type: latheRecipe # TODO: move somewhere else

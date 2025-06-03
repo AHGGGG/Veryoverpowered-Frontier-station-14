@@ -32,7 +32,7 @@
     state: icon
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - ClothingOuterHardsuitAtmos
   - ClothingOuterHardsuitEngineering
@@ -52,7 +52,7 @@
     state: icon
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - GasMiningDrillMachineCircuitboard
   - GaslockFrameMachineCircuitboard
@@ -67,7 +67,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - ClothingOuterHardsuitCap
   - ClothingOuterHardsuitEngineeringWhite
@@ -86,7 +86,7 @@
     state: icon
   discipline: Industrial
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
     - ClothingOuterHardsuitMaximPrototype
 #    - ClothingHeadHelmetAncient

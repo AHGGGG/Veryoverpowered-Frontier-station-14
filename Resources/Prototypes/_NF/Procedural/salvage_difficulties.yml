@@ -3,7 +3,7 @@
 - type: salvageDifficulty
   id: NFModerate
   lootTable: NFSalvageLootModerate
-  lootBudget: 30
+  lootBudget: 130
   mobBudget: 25
   modifierBudget: 2
   color: "#EFB34196"
@@ -13,7 +13,7 @@
 - type: salvageDifficulty
   id: NFHazardous
   lootTable: NFSalvageLootHazardous
-  lootBudget: 40
+  lootBudget: 140
   mobBudget: 32
   modifierBudget: 3
   color: "#DE3A3A96"
@@ -23,7 +23,7 @@
 - type: salvageDifficulty
   id: NFExtreme
   lootTable: NFSalvageLootExtreme
-  lootBudget: 50
+  lootBudget: 250
   mobBudget: 40
   modifierBudget: 4
   color: "#D381C996"

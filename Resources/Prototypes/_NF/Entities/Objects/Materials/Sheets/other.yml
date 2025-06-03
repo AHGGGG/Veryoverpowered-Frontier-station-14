@@ -8,4 +8,4 @@
   - type: Sprite
     state: plastic
   - type: Stack
-    count: 5
+    count: 50

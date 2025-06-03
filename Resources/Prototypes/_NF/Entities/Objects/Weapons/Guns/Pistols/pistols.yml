@@ -30,7 +30,7 @@
   parent: [ NFBaseWeaponPistolChamber45, NFBaseWeaponFramePistolCybersun ]
   name: cobra
   description: |-
-    A rugged, robust operator handgun with inbuilt silencer. An illegal firearm often used by Syndicate agents.
+    A rugged, robust operator handgun with inbuilt silencer. An illegal firearm often used by Syndicate agents, Sleek, easy, traceless is printed on the label.
   components:
   - type: Gun
     soundGunshot:

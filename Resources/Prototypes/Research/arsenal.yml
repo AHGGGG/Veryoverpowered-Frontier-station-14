@@ -28,7 +28,7 @@
     state: incendiarydisplay
   discipline: Arsenal
   tier: 1
-  cost: 10000
+  cost: 1000
   # recipeUnlocks: # Frontier
   # - BoxShotgunIncendiary # Frontier
   # - MagazineRifleIncendiary # Frontier
@@ -98,7 +98,7 @@
     state: payload-explosive-armed
   discipline: Arsenal
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - SignallerAdvanced
   - SignalTrigger
@@ -130,7 +130,7 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 1000
   # recipeUnlocks: # Frontier
   # - WeaponLaserCannon # Frontier
 
@@ -174,7 +174,7 @@
     state: full
   discipline: Arsenal
   tier: 2
-  cost: 10500
+  cost: 1050
   recipeUnlocks:
   - PowerCageRechargerCircuitboard
   - PowerCageSmall
@@ -198,7 +198,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
 #  - WeaponAdvancedLaser # Frontier
   - PortableRecharger
@@ -211,7 +211,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 1500
   # recipeUnlocks: # Frontier
   # - WeaponTemperatureGun # Frontier
 
@@ -223,7 +223,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   # - GrenadeEMP # Frontier
   - PowerCageHigh

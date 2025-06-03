@@ -55,7 +55,7 @@
     state: industrial-working
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - ChemMasterMachineCircuitboard
   - ChemDispenserMachineCircuitboard
@@ -83,7 +83,7 @@
     state: icon
   discipline: CivilianServices
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - JetpackVoid
 

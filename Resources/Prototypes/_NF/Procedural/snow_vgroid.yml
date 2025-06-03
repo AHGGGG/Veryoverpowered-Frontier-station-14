@@ -53,56 +53,56 @@
       entity: WallRockSnowTin
       count: 50
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 25
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowCoal
       count: 50
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowQuartz
       count: 50
       minGroupSize: 10
-      maxGroupSize: 15
+      maxGroupSize: 25
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowSalt
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 1
+      maxGroupSize: 1
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowGold
       count: 40
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowSilver
       count: 40
       minGroupSize: 8
-      maxGroupSize: 12
+      maxGroupSize: 22
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowPlasma
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowUranium
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
@@ -115,22 +115,22 @@
       - WallRockSnow
       entity: WallRockSnowArtifactFragment
       count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
+      minGroupSize: 11
+      maxGroupSize: 13
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: WallRockSnowDiamond
       count: 15
-      minGroupSize: 1
-      maxGroupSize: 2
+      minGroupSize: 11
+      maxGroupSize: 12
     - !type:OreDunGen
       entityMask:
       - WallRockSnow
       entity: NFWallRockSnowBluespace
       count: 10
-      minGroupSize: 1
-      maxGroupSize: 1
+      minGroupSize: 11
+      maxGroupSize: 11
     # Decoration
     # - !type:OreDunGen
       # tileMask:

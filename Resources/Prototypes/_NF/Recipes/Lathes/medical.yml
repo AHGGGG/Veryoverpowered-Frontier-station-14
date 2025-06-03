@@ -5,9 +5,9 @@
   - Tools
   completetime: 4
   materials:
-    Glass: 1200
-    Steel: 1000
-    Plastic: 1400
+    Glass: 120
+    Steel: 100
+    Plastic: 140
 
 - type: latheRecipe
   parent: BaseToolRecipe

@@ -49,7 +49,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - BolaNF
   - NFHandcuffs
@@ -87,7 +87,7 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - ClothingOuterHardsuitMercenary
   - ClothingOuterHardsuitPrivateSecurity
@@ -103,7 +103,7 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - ClothingEyesPunkInfoShades
   - ClothingOuterArmorPunkRandomized
@@ -133,7 +133,7 @@
     state: base
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - NFAmmunitionBoxPistol35Overpressure
   - NFAmmunitionBoxPistol45Overpressure
@@ -152,7 +152,7 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - NFWeaponPkaCannon
   technologyPrerequisites:
@@ -168,7 +168,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 25000
+  cost: 2500
   recipeUnlocks:
   - ClothingOuterHardsuitScaf
   technologyPrerequisites:
@@ -182,7 +182,7 @@
     state: base
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - NFAmmunitionBoxRifle20Overpressure
   - NFAmmunitionBoxRifle30Overpressure
@@ -201,7 +201,7 @@
     state: base
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - NFAmmunitionBoxBigRifle20
   - NFAmmunitionBoxBigRifle20Overpressure
@@ -279,7 +279,7 @@
     state: full
   discipline: Arsenal
   tier: 2
-  cost: 10500
+  cost: 1050
   recipeUnlocks:
   - PowerCageRechargerCircuitboard
   - PowerCageSmall
@@ -300,6 +300,6 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - NFPortableRecharger

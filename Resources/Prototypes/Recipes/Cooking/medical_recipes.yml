@@ -19,8 +19,8 @@
     Brutepack: 1
     MaterialCloth1: 1
   reagents:
-    TranexamicAcid: 20
-    Cryptobiolin: 20
+    TranexamicAcid: 1
+    Cryptobiolin: 1
   recipeType: MedicalAssembler # Frontier
 
 - type: microwaveMealRecipe
@@ -34,6 +34,6 @@
     Ointment: 1
     MaterialCloth1: 1
   reagents:
-    Sigynate: 20
-    Dermaline: 20
+    Sigynate: 1
+    Dermaline: 1
   recipeType: MedicalAssembler # Frontier

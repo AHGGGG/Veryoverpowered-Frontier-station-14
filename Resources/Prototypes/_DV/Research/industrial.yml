@@ -8,7 +8,7 @@
     state: icon
   discipline: Industrial
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   # - RCDRecharging # Frontier
   - BorgModuleRCD # Frontier

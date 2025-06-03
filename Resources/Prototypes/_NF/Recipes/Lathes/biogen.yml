@@ -33,14 +33,14 @@
   completetime: 200
   applyMaterialDiscount: false
   materials:
-    Biomass: 1600
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenWoodPlank
   result: MaterialWoodPlank1
   parent: BaseMaterialsNoDiscountRecipe # Base prototype is in Resources\Prototypes\_NF\Recipes\Lathes\sheet.yml
   materials:
-    Biomass: 15
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenSheetPlastic
@@ -48,14 +48,14 @@
   parent: BaseMaterialsNoDiscountRecipe
   completetime: 10
   materials:
-    Biomass: 40
+    Biomass: 4
 
 - type: latheRecipe
   id: NFBioGenPaperSheet
   result: SheetPaper1
   parent: BaseMaterialsNoDiscountRecipe
   materials:
-    Biomass: 10
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenFoodMeat
@@ -64,7 +64,7 @@
   applyMaterialDiscount: false
   completetime: 10
   materials:
-    Biomass: 35
+    Biomass: 3
 
 #region Meat
 
@@ -75,7 +75,7 @@
   applyMaterialDiscount: false
   completetime: 10
   materials:
-    Biomass: 35
+    Biomass: 3
     
 - type: latheRecipe
   id: NFBioGenFoodMeatPenguin
@@ -84,7 +84,7 @@
   applyMaterialDiscount: false
   completetime: 10
   materials:
-    Biomass: 35
+    Biomass: 3
     
 - type: latheRecipe
   id: NFBioGenFoodMeatDuck
@@ -93,7 +93,7 @@
   applyMaterialDiscount: false
   completetime: 10
   materials:
-    Biomass: 35
+    Biomass: 3
 
 - type: latheRecipe
   id: NFBioGenFoodMeatCrab
@@ -102,7 +102,7 @@
   applyMaterialDiscount: false
   completetime: 10
   materials:
-    Biomass: 25 #Crab is a more specific recipe, also crabs are smaller so I pressume the cut of crab meat is easier to make than a full steak
+    Biomass: 2 #Crab is a more specific recipe, also crabs are smaller so I pressume the cut of crab meat is easier to make than a full steak
     
 - type: latheRecipe
   id: NFBioGenFoodMeatBacon
@@ -111,7 +111,7 @@
   applyMaterialDiscount: false
   completetime: 10
   materials:
-    Biomass: 35 
+    Biomass: 3 
 
 #region Cubes
 
@@ -373,7 +373,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenChangelingSting
@@ -386,7 +386,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenDrGibb
@@ -399,7 +399,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenEnergyDrink
@@ -412,7 +412,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenGrapeSoda
@@ -425,7 +425,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenLemonLime
@@ -438,7 +438,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenLemonLimeCranberry
@@ -451,7 +451,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenPwrGame
@@ -464,7 +464,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenRootBeer
@@ -477,7 +477,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenSolDry
@@ -490,7 +490,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenSpaceMountainWind
@@ -503,7 +503,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenSpaceUp
@@ -516,7 +516,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenStarkist
@@ -529,7 +529,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenFourteenLoko
@@ -542,7 +542,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenShamblersJuice
@@ -555,7 +555,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 - type: latheRecipe
   id: NFBioGenSodaWater
@@ -568,7 +568,7 @@
     state: icon
   completetime: 1
   materials:
-    Biomass: 12
+    Biomass: 1
 
 # region Seeds
 

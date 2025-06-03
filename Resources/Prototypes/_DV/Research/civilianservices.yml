@@ -6,7 +6,7 @@
     state: syringe_gun
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
     - LauncherSyringe
     - MiniSyringe
