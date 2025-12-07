@@ -11,4 +11,4 @@
       tags:
         - BulletFoam
     proto: NFBulletFoam
-    capacity: 100
+    capacity: 9999

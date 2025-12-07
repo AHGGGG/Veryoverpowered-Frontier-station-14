@@ -73,7 +73,7 @@
   - type: Armor
     modifiers:
       coefficients:
-        Heat: 0.90 # Frontier 0.80<0.90
+        Heat: 0.95 # Frontier 0.80<0.90
 
 - type: entity
   parent: ClothingMaskGasAtmos # Frontier: removed BaseCommandContraband
@@ -114,10 +114,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.95 # Frontier 0.90<0.95
-        Slash: 0.95 # Frontier 0.90<0.95
-        Piercing: 0.95
-        Heat: 0.95
+        Blunt: 0.50 # Frontier 0.90<0.95
+        Slash: 0.50 # Frontier 0.90<0.95
+        Piercing: 0.50
+        Heat: 0.50
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -157,10 +157,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.75
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -389,10 +389,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.95 # Frontier 0.90<0.95
-        Slash: 0.95 # Frontier 0.90<0.95
-        Piercing: 0.95
-        Heat: 0.95
+        Blunt: 0.85 # Frontier 0.90<0.95
+        Slash: 0.85 # Frontier 0.90<0.95
+        Piercing: 0.75
+        Heat: 0.75
 
 - type: entity
   parent: [ ClothingMaskGas ] # Frontier: Removed BaseSecurityCargoContraband
@@ -407,10 +407,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.95 # Frontier 0.90<0.95
-        Slash: 0.95 # Frontier 0.90<0.95
-        Piercing: 0.95
-        Heat: 0.95
+        Blunt: 0.85 # Frontier 0.90<0.95
+        Slash: 0.85 # Frontier 0.90<0.95
+        Piercing: 0.85
+        Heat: 0.85
   - type: PirateBountyItem # Frontier
     id: ClothingMaskGasMercenary # Frontier
 

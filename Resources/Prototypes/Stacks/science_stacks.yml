@@ -2,11 +2,11 @@
   id: ArtifactFragment
   name: stack-artifact-fragment
   spawn: ArtifactFragment1
-  maxCount: 30
+  maxCount: 800
 
 - type: stack
   id: Manipulator
   name: stack-micro-manipulator
   icon: { sprite: /Textures/Objects/Misc/stock_parts.rsi, state: micro_mani }
   spawn: MicroManipulatorStockPart
-  maxCount: 10
+  maxCount: 30

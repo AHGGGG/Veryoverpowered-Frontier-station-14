@@ -59,7 +59,7 @@
     heatingCoefficient: 0.005
     coolingCoefficient: 0.005
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.3
   - type: Tag
     tags:
     - CorgiWearable
@@ -189,8 +189,8 @@
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
   - type: PointLight
-    radius: 7
-    energy: 3
+    radius: 9
+    energy: 6
   - type: Tag
     tags:
     - CorgiWearable
@@ -240,7 +240,7 @@
       - state: equipped-head-unshaded-dog
         shader: unshaded
   - type: PointLight
-    radius: 6
+    radius: 8
   - type: PressureProtection
     highPressureMultiplier: 0.72
     lowPressureMultiplier: 1000
@@ -266,10 +266,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
 
 #Security Hardsuit
 - type: entity

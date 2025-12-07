@@ -24,8 +24,8 @@
     prefixOn: on
   - type: Magboots
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -55,8 +55,8 @@
   - type: Clothing
     sprite: Clothing/Shoes/Boots/magboots-advanced.rsi
   - type: ClothingSpeedModifier
-    walkModifier: 1
-    sprintModifier: 1
+    walkModifier: 1.2
+    sprintModifier: 1.2
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -82,8 +82,8 @@
   description: These would look fetching on a fetcher like you.
   components:
   - type: ClothingSpeedModifier
-    walkModifier: 1.1 #PVS isn't too much of an issue when you are blind...
-    sprintModifier: 1.1
+    walkModifier: 1.5 #PVS isn't too much of an issue when you are blind...
+    sprintModifier: 1.5
   - type: StaticPrice
     price: 3000
 

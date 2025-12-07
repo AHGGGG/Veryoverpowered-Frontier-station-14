@@ -24,11 +24,11 @@
           - id: SalvageCanisterSpawner
             prob: 0.2
           - id: SalvageMobSpawner
-            prob: 0.7
+            prob: 0.5
           - id: WallSolid
             prob: 1
           - id: Grille
-            prob: 0.5
+            prob: 0.2
         Lattice:
           - prob: 2
           - id: Grille

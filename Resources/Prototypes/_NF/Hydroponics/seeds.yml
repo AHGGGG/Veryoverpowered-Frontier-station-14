@@ -10,14 +10,14 @@
   harvestRepeat: Repeat
   lifespan: 45
   maturation: 15
-  production: 8
-  yield: 1
-  potency: 10
+  production: 100
+  yield: 100
+  potency: 100
   growthStages: 2
   idealLight: 6
-  seedless: true # clip your coupons
-  preventSwabbing: true # don't swab your money.
-  permanentlySeedless: true
+  seedless: false # MONEY MONEY MONEY
+  preventSwabbing: false # PRINT MONEY!
+  permanentlySeedless: false
 
 - type: seed
   id: pear
@@ -56,9 +56,9 @@
     - FoodCoffee
   lifespan: 25
   maturation: 9
-  production: 1
-  yield: 2
-  potency: 5
+  production: 10
+  yield: 20
+  potency: 20
   idealLight: 8
   growthStages: 5
   harvestRepeat: Repeat
@@ -84,8 +84,8 @@
     - FoodAvocado
   lifespan: 55
   maturation: 6
-  production: 6
-  yield: 3
+  production: 16
+  yield: 13
   potency: 10
   idealLight: 6
   growthStages: 5
@@ -112,8 +112,8 @@
     - FoodCucumber
   lifespan: 50
   maturation: 7
-  production: 5
-  yield: 4
+  production: 15
+  yield: 14
   potency: 10
   growthStages: 5
   chemicals:
@@ -166,8 +166,8 @@
   harvestRepeat: Repeat
   lifespan: 25
   maturation: 6
-  production: 6
-  yield: 2
+  production: 16
+  yield: 12
   potency: 20
   idealLight: 9 # tropical-ish
   idealHeat: 303

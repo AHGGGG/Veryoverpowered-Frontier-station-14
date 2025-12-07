@@ -15,7 +15,7 @@
       tags:
         - NFCartridgeRifle20
     proto: NFCartridgeRifle20
-    capacity: 25
+    capacity: 30
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_mag.rsi
     layers:
@@ -50,7 +50,7 @@
       tags:
         - NFCartridgeRifle20
     proto: NFCartridgeRifle20
-    capacity: 60
+    capacity: 65
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
     layers:
@@ -83,7 +83,7 @@
       - NFMagazineBoxRifle20
   - type: BallisticAmmoProvider
     proto: NFCartridgeRifle20
-    capacity: 100
+    capacity: 200
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
   - type: MagazineVisuals

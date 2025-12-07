@@ -9,7 +9,7 @@
     whitelist:
       tags:
       - ShellShotgun
-    capacity: 20
+    capacity: 120
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
 

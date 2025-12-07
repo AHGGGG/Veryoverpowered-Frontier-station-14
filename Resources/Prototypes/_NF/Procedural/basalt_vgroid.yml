@@ -59,8 +59,8 @@
       - WallRockBasalt
       entity: WallRockBasaltCoal
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 10
+      maxGroupSize: 15
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
@@ -73,36 +73,36 @@
       - WallRockBasalt
       entity: WallRockBasaltSalt
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 0
+      maxGroupSize: 1
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
       entity: WallRockBasaltGold
       count: 40
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 18
+      maxGroupSize: 19
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
       entity: WallRockBasaltSilver
       count: 40
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 18
+      maxGroupSize: 19
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
       entity: WallRockBasaltPlasma
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
       entity: WallRockBasaltUranium
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
@@ -115,22 +115,22 @@
       - WallRockBasalt
       entity: WallRockBasaltArtifactFragment
       count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
+      minGroupSize: 11
+      maxGroupSize: 13
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
       entity: WallRockBasaltDiamond
       count: 15
-      minGroupSize: 1
-      maxGroupSize: 2
+      minGroupSize: 11
+      maxGroupSize: 12
     - !type:OreDunGen
       entityMask:
       - WallRockBasalt
       entity: NFWallRockBasaltBluespace
       count: 10
-      minGroupSize: 1
-      maxGroupSize: 1
+      minGroupSize: 11
+      maxGroupSize: 11
     # Decoration
     # - !type:OreDunGen
       # tileMask:

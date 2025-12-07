@@ -26,7 +26,7 @@
         - NFCartridgeRifle20
         - NFCartridgeRifle30
         - NFCartridgeRifle25
-    capacity: 50
+    capacity: 150
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

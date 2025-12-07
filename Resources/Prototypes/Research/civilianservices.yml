@@ -140,7 +140,7 @@
     state: advmop
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
@@ -176,7 +176,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
@@ -219,7 +219,7 @@
     state: icon
   discipline: CivilianServices
   tier: 3
-  cost: 15000 # Frontier - 10000<15000
+  cost: 1500 # Frontier - 10000<15000
   recipeUnlocks:
   - ClothingShoesBootsSpeed
 
@@ -231,7 +231,7 @@
     state: beakerbluespace
   discipline: CivilianServices
   tier: 3
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - BluespaceBeaker
   - SyringeBluespace
@@ -246,7 +246,7 @@
     state: syringe_gun
   discipline: CivilianServices
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - LauncherSyringe
   - MiniSyringe

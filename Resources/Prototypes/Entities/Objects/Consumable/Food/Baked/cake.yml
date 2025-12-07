@@ -18,9 +18,9 @@
         maxVol: 55 # flavored cakes have less room for spiking
         reagents:
         - ReagentId: Nutriment
-          Quantity: 20 # Frontier: 40<20
+          Quantity: 40 # Frontier: 40<20
         - ReagentId: Vitamin
-          Quantity: 5 # Frontier: 5<10
+          Quantity: 10 # Frontier: 5<10
         - ReagentId: Flavorol
           Quantity: 20
   - type: Item
@@ -147,7 +147,7 @@
         - ReagentId: Nutriment
           Quantity: 20
         - ReagentId: Vitamin
-          Quantity: 5
+          Quantity: 15
   - type: Item
     heldPrefix: plain
 

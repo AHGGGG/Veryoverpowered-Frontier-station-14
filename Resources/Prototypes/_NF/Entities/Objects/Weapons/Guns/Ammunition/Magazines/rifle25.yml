@@ -5,7 +5,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: NFCartridgeRifle25Rubber
-    capacity: 10
+    capacity: 12
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
     layers:
@@ -52,7 +52,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: NFCartridgeRifle25Rubber
-    capacity: 20
+    capacity: 25
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag_short.rsi
     layers:

@@ -49,9 +49,9 @@
     WallRockChromite: WallRockChromiteSalt
     WallRockSand: WallRockSandSalt
     WallRockSnow: WallRockSnowSalt
-  maxCount: 30
-  minGroupSize: 8
-  maxGroupSize: 12
+  maxCount: 1
+  minGroupSize: 1
+  maxGroupSize: 2
   radius: 4
 
 # Medium value
@@ -97,8 +97,8 @@
     WallRockSand: WallRockSandPlasma
     WallRockSnow: WallRockSnowPlasma
   maxCount: 12
-  minGroupSize: 4
-  maxGroupSize: 8
+  minGroupSize: 14
+  maxGroupSize: 18
   radius: 4
 
 # Uranium
@@ -112,8 +112,8 @@
     WallRockSand: WallRockSandUranium
     WallRockSnow: WallRockSnowUranium
   maxCount: 15
-  minGroupSize: 4
-  maxGroupSize: 8
+  minGroupSize: 14
+  maxGroupSize: 18
   radius: 4
 
 - type: biomeMarkerLayer
@@ -126,8 +126,8 @@
     WallRockSand: WallRockSandDiamond
     WallRockSnow: WallRockSnowDiamond
   maxCount: 6
-  minGroupSize: 1
-  maxGroupSize: 2
+  minGroupSize: 11
+  maxGroupSize: 12
   radius: 4
 
 # Artifact Fragment
@@ -141,6 +141,6 @@
     WallRockSand: WallRockSandArtifactFragment
     WallRockSnow: WallRockSnowArtifactFragment
   maxCount: 6
-  minGroupSize: 1
-  maxGroupSize: 2
+  minGroupSize: 11
+  maxGroupSize: 12
   radius: 4

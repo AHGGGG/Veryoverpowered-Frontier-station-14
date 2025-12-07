@@ -16,7 +16,7 @@
     - back
   - type: Storage
     grid:
-    - 0,0,6,3
+    - 0,0,6,4
     maxItemSize: Huge
   - type: ContainerContainer
     containers:
@@ -207,7 +207,7 @@
     sprite: Clothing/Back/Backpacks/ertleader.rsi
   - type: Storage
     grid:
-    - 0,0,10,3
+    - 0,0,10,4
 
 - type: entity
   parent: ClothingBackpackERTLeader

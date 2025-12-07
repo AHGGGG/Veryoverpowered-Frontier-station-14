@@ -241,7 +241,7 @@
       - Chicken
     offspring:
     - id: FoodEggChickenFertilized
-      maxAmount: 3
+      maxAmount: 8
   - type: ReproductivePartner
   - type: Appearance
   - type: DamageStateVisuals
@@ -255,9 +255,9 @@
   - type: Butcherable
     spawned:
     - id: FoodMeatWholeChicken #Frontier: Chicken<WholeChicken
-      amount: 1
+      amount: 6
   - type: InteractionPopup
-    successChance: 0.8
+    successChance: 0.95
     interactSuccessString: petting-success-bird
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
@@ -694,7 +694,7 @@
       - Duck
     offspring:
     - id: FoodEggDuckFertilized
-      maxAmount: 3
+      maxAmount: 8
   - type: ReproductivePartner
   - type: Appearance
   - type: DamageStateVisuals
@@ -708,7 +708,7 @@
   - type: Butcherable
     spawned:
     - id: FoodMeatWholeDuck #Frontier: Duck<WholeDuck
-      amount: 1
+      amount: 4
   - type: InteractionPopup
     successChance: 0.9
     interactSuccessString: petting-success-bird
@@ -908,19 +908,19 @@
   - type: SolutionContainerManager
     solutions:
       udder:
-        maxVol: 250
+        maxVol: 550
         reagents:
         - ReagentId: Milk
-          Quantity: 30
+          Quantity: 60
   - type: Udder
     reagentId: Milk
     quantityPerUpdate: 25
-    growthDelay: 30
+    growthDelay: 20
   - type: ExaminableHunger
   - type: Butcherable
     spawned:
     - id: FoodMeat
-      amount: 5
+      amount: 25
   - type: Grammar
     attributes:
       gender: female # Here because of UdderComponent
@@ -1066,10 +1066,10 @@
   - type: SolutionContainerManager
     solutions:
       udder:
-        maxVol: 250
+        maxVol: 450
         reagents:
         - ReagentId: MilkGoat
-          Quantity: 30
+          Quantity: 40
       wool:
         maxVol: 250
   - type: Udder
@@ -1089,7 +1089,7 @@
   - type: Butcherable
     spawned:
     - id: FoodMeat
-      amount: 4
+      amount: 12
   - type: Grammar
     attributes:
       gender: female # Here because of UdderComponent
@@ -1157,7 +1157,7 @@
   - type: Butcherable
     spawned:
     - id: FoodMeatWholeChicken #Frontier: Chicken<WholeChicken
-      amount: 1 # 2<1 Frontier
+      amount: 6 # 2<1 Frontier
   - type: InteractionPopup # TODO: Make it so there's a separate chance to make certain animals outright hostile towards you.
     successChance: 0.1 # Yeah, good luck with that.
     interactSuccessString: petting-success-goose

@@ -277,7 +277,7 @@
         - ReagentId: Vitamin
           Quantity: 6
         - ReagentId: Omnizine
-          Quantity: 9
+          Quantity: 39
         - ReagentId: Flavorol
           Quantity: 15
   - type: Tag
@@ -310,7 +310,7 @@
         - ReagentId: Vitamin
           Quantity: 1
         - ReagentId: Omnizine
-          Quantity: 1.5
+          Quantity: 4.5
         - ReagentId: Flavorol
           Quantity: 3
   - type: Tag

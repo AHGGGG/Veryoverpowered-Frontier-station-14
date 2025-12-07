@@ -30,7 +30,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -1
+            Poison: -5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -91,7 +91,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -3
+            Poison: -15
 
 - type: reagent
   id: Ethylredoxrazine
@@ -111,7 +111,7 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: -0.5
+            Poison: -2.5
 
 - type: reagent
   id: Arithrazine
@@ -127,9 +127,9 @@
       - !type:HealthChange
         damage:
           types:
-            Radiation: -3
+            Radiation: -8
           groups:
-            Brute: 1.5
+            Brute: 0.5
 
 - type: reagent
   id: Bicaridine
@@ -144,7 +144,7 @@
       effects:
       - !type:EvenHealthChange
         damage:
-          Brute: -1.5
+          Brute: -8
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -191,9 +191,9 @@
           # todo scale with temp like SS13
             groups:
               Airloss: -10 # Frontier: -6<-10
-              # Brute: -4 # Frontier
-              # Burn: -6 # Frontier
-              # Toxin: -4 # Frontier
+              Brute: -14 # Frontier
+              Burn: -16 # Frontier
+              Toxin: -14 # Frontier
 
 - type: reagent
   id: Doxarubixadone
@@ -213,7 +213,7 @@
             max: 213.0
           damage:
             types:
-             Cellular: -4 # Frontier: -2<-4
+             Cellular: -14 # Frontier: -2<-4
             groups: # Frontier
                 Brute: 1 # Frontier
         # Frontier: Prevent the brute damage from exsanguinating patients
@@ -237,16 +237,16 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: -1.5
-            Shock: -1.5
-            Cold: -1.5
+            Heat: -5.5
+            Shock: -5.5
+            Cold: -5.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
           min: 10
         damage:
           types:
-            Asphyxiation: 1
+            Asphyxiation: 0.5
             Cold: 2
           groups:
             Brute: 0.5
@@ -269,8 +269,8 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -1
-            Bloodloss: -0.5
+            Asphyxiation: -5
+            Bloodloss: -5.5
       - !type:HealthChange
         conditions:
           - !type:ReagentThreshold
@@ -294,8 +294,8 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -3.5
-            Bloodloss: -3
+            Asphyxiation: -10.5
+            Bloodloss: -9
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
@@ -341,11 +341,11 @@
           max: 20
         damage:
           types:
-            Asphyxiation: -3
-            Poison: -0.5
+            Asphyxiation: -13
+            Poison: -1.5
           groups:
-            Brute: -0.5
-            Burn: -0.5
+            Brute: -4.5
+            Burn: -4.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -399,7 +399,7 @@
       - !type:HealthChange
         damage:
           types:
-            Radiation: -1
+            Radiation: -10
       - !type:ChemVomit
         probability: 0.02
       - !type:HealthChange
@@ -450,9 +450,9 @@
           mobstate: Critical
         damage:
           types:
-            Asphyxiation: -2
+            Asphyxiation: -20
       - !type:ModifyBleedAmount
-        amount: -0.25
+        amount: -1.25
 
 - type: reagent
   id: Kelotane
@@ -501,7 +501,7 @@
       - !type:HealthChange
         damage:
           types:
-            Cold: -4
+            Cold: -24
       - !type:AdjustTemperature
         conditions:
         - !type:Temperature
@@ -587,9 +587,9 @@
       - !type:HealthChange
         damage:
           types:
-            Cellular: -0.3
-            Radiation: 0.15
-            Caustic: 0.15
+            Cellular: -2.3
+            Radiation: 0
+            Caustic: 0
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -692,9 +692,9 @@
     Drink:
       effects:
         - !type:SatiateThirst
-          factor: 6
+          factor: 60
         - !type:ModifyBloodLevel
-          amount: 6
+          amount: 60
 
 - type: reagent
   id: Siderlac
@@ -710,7 +710,7 @@
       - !type:HealthChange
         damage:
           types:
-            Caustic: -5
+            Caustic: -50
 
 - type: reagent
   id: Stellibinin
@@ -777,7 +777,7 @@
       # Medium-large quantities can hurt you instead,
       # but still technically stop your bleeding.
       - !type:ModifyBleedAmount
-        amount: -1.5
+        amount: -8.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -800,15 +800,15 @@
       - !type:HealthChange
         conditions:
         - !type:TotalDamage
-          max: 50
+          max: 100
         damage:
           groups:
-            Brute: -1
+            Brute: -2.5
           types:
-            Poison: -0.5 ##Should be about what it was when it healed the toxin group
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
+            Poison: -2.5 ##Should be about what it was when it healed the toxin group
+            Heat: -2.33
+            Shock: -2.33
+            Cold: -2.33
 
 - type: reagent
   id: Lipozine
@@ -839,10 +839,10 @@
       effects:
       - !type:EvenHealthChange
         damage:
-          Burn: -2
-          Toxin: -2
-          Airloss: -2
-          Brute: -2
+          Burn: -20
+          Toxin: -20
+          Airloss: -20
+          Brute: -20
 
 - type: reagent
   id: Ultravasculine
@@ -989,7 +989,7 @@
       - !type:HealthChange
         damage:
           types:
-            Caustic: -0.6 # 6 per u
+            Caustic: -7.6 # 6 per u
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -1045,7 +1045,7 @@
       - !type:HealthChange
         damage:
           types:
-            Slash: -0.6 # 6 Per u
+            Slash: -8.6 # 6 Per u
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -1069,8 +1069,8 @@
       - !type:HealthChange
         damage:
           types:
-            Piercing: -0.6 # 6 per u
-            Blunt: 0.05 # 0.5 per u
+            Piercing: -8.6 # 6 per u
+            Blunt: -0.05 # 0.5 per u
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -1094,7 +1094,7 @@
       - !type:HealthChange
         damage:
           types:
-            Blunt: -0.6 # 6 per u
+            Blunt: -8.6 # 6 per u
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -1179,7 +1179,7 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: -1
+            Heat: -10
       # od causes massive bleeding
       - !type:HealthChange
         conditions:
@@ -1217,7 +1217,7 @@
       - !type:HealthChange
         damage:
           types:
-            Shock: -0.5 # 5 per u
+            Shock: -8.5 # 5 per u
       - !type:AdjustReagent
         reagent: Licoxide
         amount: -4

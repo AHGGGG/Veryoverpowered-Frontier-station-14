@@ -28,8 +28,8 @@
     availableModes:
     - SemiAuto
   - type: Battery # Default: 16 shots with 60 fireCost
-    maxCharge: 960
-    startingCharge: 960
+    maxCharge: 1960
+    startingCharge: 1960
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 3 # Default recharge rate: 1 shot per 20 seconds with 60 fireCost

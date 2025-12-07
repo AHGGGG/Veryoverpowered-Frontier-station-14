@@ -14,7 +14,7 @@
     whitelist:
       tags:
         - NFCartridgePistol45
-    capacity: 8
+    capacity: 10
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/pistol_mag.rsi
     layers:
@@ -47,7 +47,7 @@
     whitelist:
       tags:
         - NFCartridgePistol45
-    capacity: 25
+    capacity: 35
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol45/smg_mag.rsi
     layers:

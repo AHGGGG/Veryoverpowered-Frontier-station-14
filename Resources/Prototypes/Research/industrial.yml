@@ -52,7 +52,7 @@
     state: base
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - FlatpackerMachineCircuitboard
 
@@ -64,7 +64,7 @@
     state: building
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - AutolatheHyperConvectionMachineCircuitboard
   - ProtolatheHyperConvectionMachineCircuitboard
@@ -130,7 +130,7 @@
     state: base
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - ShuttleConsoleCircuitboard
   - ThrusterMachineCircuitboard
@@ -161,7 +161,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
     - WelderExperimental
     - PowerDrill
@@ -178,7 +178,7 @@
     state: handdrill
   discipline: Industrial
   tier: 2
-  cost: 12500
+  cost: 1250
   recipeUnlocks:
     - OreBagOfHolding
     - MiningDrillDiamond
@@ -195,7 +195,7 @@
     state: holding
   discipline: Industrial
   tier: 3
-  cost: 15000
+  cost: 1500
   recipeUnlocks:
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding
@@ -209,7 +209,7 @@
     state: microreactor
   discipline: Industrial
   tier: 3
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
   - PowerCellMicroreactor
   # - PowerCellHyper # Frontier: moved to PowerCellHyperNF

@@ -44,7 +44,7 @@
   - type: Clothing
     sprite: Clothing/Head/Helmets/eva_syndicate.rsi
   - type: StaticPrice
-    price: 500 # Suit is 1000
+    price: 900 # Suit is 1000
 
 #Cosmonaut Helmet
 - type: entity
@@ -105,8 +105,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Heat: 0.90
-        Radiation: 0.75
+        Heat: 1
+        Radiation: 0.95
   - type: PointLight
     radius: 5
     energy: 2

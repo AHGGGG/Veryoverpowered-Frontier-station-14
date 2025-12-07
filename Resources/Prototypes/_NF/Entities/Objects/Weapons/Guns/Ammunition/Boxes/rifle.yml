@@ -10,7 +10,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle10
-    capacity: 60
+    capacity: 360
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
 
@@ -26,7 +26,7 @@
     shape:
     - 0,0,1,1
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 300
   - type: Sprite
     scale: 1.15, 1.15
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle_big.rsi
@@ -42,7 +42,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle20
-    capacity: 60
+    capacity: 360
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
 
@@ -58,7 +58,7 @@
     shape:
     - 0,0,1,1
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 300
   - type: Sprite
     scale: 1.15, 1.15
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle_big.rsi
@@ -74,7 +74,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle25
-    capacity: 60
+    capacity: 360
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
 
@@ -90,7 +90,7 @@
     shape:
     - 0,0,1,1
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 300
   - type: Sprite
     scale: 1.15, 1.15
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle_big.rsi
@@ -106,7 +106,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle30
-    capacity: 60
+    capacity: 360
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
 
@@ -122,7 +122,7 @@
     shape:
     - 0,0,1,1
   - type: BallisticAmmoProvider
-    capacity: 200
+    capacity: 300
   - type: Sprite
     scale: 1.15, 1.15
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle_big.rsi
@@ -138,7 +138,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle60
-    capacity: 30
+    capacity: 330
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
   - type: MagazineVisuals
@@ -156,7 +156,7 @@
     shape:
     - 0,0,1,1
   - type: BallisticAmmoProvider
-    capacity: 120
+    capacity: 320
   - type: Sprite
     scale: 1.25, 1.25
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle_big.rsi

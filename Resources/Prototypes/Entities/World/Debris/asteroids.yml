@@ -9,46 +9,46 @@
       floorTileset:
       - FloorAsteroidSand
       blobDrawProb: 0.5
-      radius: 6
-      floorPlacements: 16
+      radius: 12
+      floorPlacements: 26
     - type: SimpleFloorPlanPopulator
       entries:
         FloorAsteroidSand:
           - id: WallRock
-            prob: 0.5
+            prob: 0.2
             orGroup: rock
           - id: WallRockCoal
-            prob: 0.15
+            prob: 0.25
             orGroup: rock
           - id: WallRockTin
-            prob: 0.15
+            prob: 0.25
             orGroup: rock
           - id: WallRockQuartz
-            prob: 0.15
+            prob: 0.25
             orGroup: rock
           - id: WallRockSalt
-            prob: 0.15
+            prob: 0.01
             orGroup: rock
           - id: WallRockGold
-            prob: 0.05
+            prob: 0.15
             orGroup: rock
           - id: WallRockDiamond
-            prob: 0.005
+            prob: 0.15
             orGroup: rock
           - id: WallRockSilver
-            prob: 0.05
+            prob: 0.15
             orGroup: rock
           - id: WallRockPlasma
-            prob: 0.05
+            prob: 0.15
             orGroup: rock
           - id: WallRockUranium
-            prob: 0.02
+            prob: 0.1
             orGroup: rock
           - id: WallRockBananium
-            prob: 0.02
+            prob: 0.1
             orGroup: rock
           - id: WallRockArtifactFragment
-            prob: 0.01
+            prob: 0.1
             orGroup: rock
     - type: IFF
       flags: HideLabel
@@ -62,7 +62,7 @@
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
-      floorPlacements: 8
+      floorPlacements: 12
 
 - type: entity
   id: AsteroidDebrisMedium
@@ -72,7 +72,7 @@
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
-      floorPlacements: 16
+      floorPlacements: 18
 
 - type: entity
   id: AsteroidDebrisLarge

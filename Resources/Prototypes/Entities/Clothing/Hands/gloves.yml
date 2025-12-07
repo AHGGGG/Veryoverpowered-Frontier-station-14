@@ -13,10 +13,10 @@
     # This needs to be moved to boxinggloves
     #knockdownSound: /Audio/Weapons/boxingbell.ogg
   - type: MeleeWeapon
-    attackRate: 1.5
+    attackRate: 2
     damage:
       types:
-        Blunt: 0.4
+        Blunt: 0.2
     soundHit:
       collection: BoxingHit
     animation: WeaponArcFist
@@ -86,7 +86,7 @@
   - type: StaminaDamageOnHit
     damage: 25
   - type: MeleeWeapon
-    attackRate: 1.4
+    attackRate: 1.8
     damage:
       types:
         Blunt: 8
@@ -169,6 +169,7 @@
     sprite: Clothing/Hands/Gloves/leather.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/leather.rsi
+  - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown

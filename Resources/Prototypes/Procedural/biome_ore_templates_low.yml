@@ -9,8 +9,8 @@
     WallRockSand: WallRockSandTin
     WallRockSnow: WallRockSnowTin
   maxCount: 20
-  minGroupSize: 4
-  maxGroupSize: 8
+  minGroupSize: 14
+  maxGroupSize: 18
   radius: 4
 
 - type: biomeMarkerLayer
@@ -22,8 +22,8 @@
     WallRockChromite: WallRockChromiteQuartz
     WallRockSnow: WallRockSnowQuartz
   maxCount: 20
-  minGroupSize: 4
-  maxGroupSize: 8
+  minGroupSize: 14
+  maxGroupSize: 18
   radius: 4
 
 - type: biomeMarkerLayer
@@ -36,8 +36,8 @@
     WallRockSand: WallRockSandCoal
     WallRockSnow: WallRockSnowCoal
   maxCount: 20
-  minGroupSize: 4
-  maxGroupSize: 6
+  minGroupSize: 14
+  maxGroupSize: 16
   radius: 4
 
 - type: biomeMarkerLayer
@@ -50,8 +50,8 @@
     WallRockSand: WallRockSandSalt
     WallRockSnow: WallRockSnowSalt
   maxCount: 15
-  minGroupSize: 4
-  maxGroupSize: 6
+  minGroupSize: 1
+  maxGroupSize: 2
   radius: 4
 
 # Medium value
@@ -66,8 +66,8 @@
     WallRockSand: WallRockSandGold
     WallRockSnow: WallRockSnowGold
   maxCount: 10
-  minGroupSize: 2
-  maxGroupSize: 5
+  minGroupSize: 12
+  maxGroupSize: 15
   radius: 4
 
 # Silver
@@ -81,8 +81,8 @@
     WallRockSand: WallRockSandSilver
     WallRockSnow: WallRockSnowSilver
   maxCount: 10
-  minGroupSize: 2
-  maxGroupSize: 5
+  minGroupSize: 12
+  maxGroupSize: 15
   radius: 4
 
 # High value
@@ -97,8 +97,8 @@
     WallRockSand: WallRockSandPlasma
     WallRockSnow: WallRockSnowPlasma
   maxCount: 6
-  minGroupSize: 2
-  maxGroupSize: 4
+  minGroupSize: 12
+  maxGroupSize: 14
   radius: 4
 
 # Uranium
@@ -112,8 +112,8 @@
     WallRockSand: WallRockSandUranium
     WallRockSnow: WallRockSnowUranium
   maxCount: 7
-  minGroupSize: 2
-  maxGroupSize: 4
+  minGroupSize: 12
+  maxGroupSize: 14
   radius: 4
 
 - type: biomeMarkerLayer
@@ -126,8 +126,8 @@
     WallRockSand: WallRockSandDiamond
     WallRockSnow: WallRockSnowDiamond
   maxCount: 3
-  minGroupSize: 1
-  maxGroupSize: 2
+  minGroupSize: 11
+  maxGroupSize: 12
   radius: 4
 
 # Artifact Fragment
@@ -141,6 +141,6 @@
     WallRockSand: WallRockSandArtifactFragment
     WallRockSnow: WallRockSnowArtifactFragment
   maxCount: 3
-  minGroupSize: 1
-  maxGroupSize: 2
+  minGroupSize: 11
+  maxGroupSize: 12
   radius: 4

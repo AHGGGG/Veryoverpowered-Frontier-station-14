@@ -1,24 +1,24 @@
 - type: weightedRandomEntity
   id: ExpeditionRewardT1
   weights:
-    SpaceCashExpeditionT1: 1.0
+    SpaceCashExpeditionT1: 2.0
 
 - type: weightedRandomEntity
   id: ExpeditionRewardT2
   weights:
-    SpaceCashExpeditionT2: 1.0
+    SpaceCashExpeditionT2: 3.0
 
 - type: weightedRandomEntity
   id: ExpeditionRewardT3
   weights:
-    SpaceCashExpeditionT3: 1.0
+    SpaceCashExpeditionT3: 4.0
 
 - type: weightedRandomEntity
   id: ExpeditionRewardT4
   weights:
-    SpaceCashExpeditionT4: 1.0
+    SpaceCashExpeditionT4: 5.0
 
 - type: weightedRandomEntity
   id: ExpeditionRewardT5
   weights:
-    SpaceCashExpeditionT5: 1.0
+    SpaceCashExpeditionT5: 6.0

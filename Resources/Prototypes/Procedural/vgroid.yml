@@ -43,8 +43,8 @@
       - IronRock # upstream#33105
       entity: IronRockCoal
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 10
+      maxGroupSize: 15
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
@@ -59,56 +59,56 @@
       - IronRock # upstream#33105
       entity: IronRockSalt
       count: 50
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 1
+      maxGroupSize: 1
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
       entity: IronRockGold
       count: 40
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 10
+      maxGroupSize: 15
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
       entity: IronRockSilver
       count: 40
-      minGroupSize: 8
-      maxGroupSize: 12
+      minGroupSize: 10
+      maxGroupSize: 15
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
       entity: IronRockPlasma
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
       entity: IronRockUranium
       count: 35
-      minGroupSize: 4
-      maxGroupSize: 8
+      minGroupSize: 14
+      maxGroupSize: 18
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
       entity: IronRockArtifactFragment
       count: 25
-      minGroupSize: 1
-      maxGroupSize: 3
+      minGroupSize: 11
+      maxGroupSize: 13
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105
       - IronRock # upstream#33105
       entity: IronRockDiamond
       count: 15
-      minGroupSize: 1
-      maxGroupSize: 2
+      minGroupSize: 11
+      maxGroupSize: 12
     - !type:OreDunGen
       # replacement: IronRock # upstream#33105
       entityMask: # upstream#33105

@@ -19,7 +19,7 @@
         maxVol: 7
         reagents:
         - ReagentId: Nutriment
-          Quantity: 5
+          Quantity: 25
 
 - type: entity
   id: FoodBagel
@@ -44,9 +44,9 @@
         maxVol: 12
         reagents:
         - ReagentId: Bicaridine
-          Quantity: 5
+          Quantity: 15
         - ReagentId: Nutriment
-          Quantity: 5
+          Quantity: 25
 
 - type: entity
   id: FoodBagelCotton
@@ -71,8 +71,8 @@
         maxVol: 12
         reagents:
         - ReagentId: Nutriment
-          Quantity: 2.5
+          Quantity: 22.5
         - ReagentId: Fiber
-          Quantity: 2.5
+          Quantity: 12.5
   - type: MothFood # Frontier
 

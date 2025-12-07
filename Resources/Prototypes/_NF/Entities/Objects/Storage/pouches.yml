@@ -18,7 +18,7 @@
   - type: Storage
     maxItemSize: Small
     grid:
-    - 0,0,2,1
+    - 0,0,6,6
     blacklist:
       components: [ Storage ] # No bagception
   - type: StaticPrice

@@ -5,11 +5,11 @@
     - !type:RandomSpawnsLoot
       entries:
         - proto: SalvageSpawnerEquipmentValuable100
-          prob: 0.1
+          prob: 1
         - proto: SalvageSpawnerEquipment100
-          prob: 0.2
+          prob: 1
         - proto: SalvageSpawnerTreasureValuable100
-          prob: 0.4
+          prob: 1
         - proto: SalvageSpawnerTreasure100
 #        - proto: SalvageSpawnerScrapValuable100
 
@@ -19,11 +19,11 @@
     - !type:RandomSpawnsLoot
       entries:
         - proto: SalvageSpawnerEquipmentValuable100
-          prob: 0.2
+          prob: 1
         - proto: SalvageSpawnerEquipment100
-          prob: 0.4
+          prob: 1
         - proto: SalvageSpawnerTreasureValuable100
-          prob: 0.8
+          prob: 1
         - proto: SalvageSpawnerTreasure100
 #        - proto: SalvageSpawnerScrapValuable100
 
@@ -33,9 +33,9 @@
     - !type:RandomSpawnsLoot
       entries:
         - proto: SalvageSpawnerEquipmentValuable100
-          prob: 0.3
+          prob: 1
         - proto: SalvageSpawnerEquipment100
-          prob: 0.6
+          prob: 1
         - proto: SalvageSpawnerTreasureValuable100
         - proto: SalvageSpawnerTreasure100
 #        - proto: SalvageSpawnerScrapValuable100

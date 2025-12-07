@@ -41,8 +41,8 @@
 - type: ore
   id: NFOreScrap
   oreEntity: ScrapOreRandom3
-  minOreYield: 1
-  maxOreYield: 5
+  minOreYield: 15
+  maxOreYield: 50
 
 #region Stacks
 - type: stack
